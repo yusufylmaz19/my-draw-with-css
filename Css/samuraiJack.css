@@ -5,6 +5,22 @@
     --skin: #eccd79;
     --shadow: rgba(0, 0, 0, 0.2);
     --sword: #c4d3d8;
+    --dawn:linear-gradient(#ffc400, #ff7300, rgb(238, 0, 0));
+    --cp1:polygon(36% 0, 100% 0, 100% 99%, 0 100%);
+    --cp2:polygon(58% 0, 80% 0, 65% 100%, 3% 100%);
+    --cp3:polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
+    --cp4: polygon(20% 30%, 100% 30%, 99% 100%, 0 79%);
+    --cp5: polygon(0 68%, 100% 81%, 100% 100%, 0 100%);
+    --cp6: polygon(60% 0, 61% 0, 67% 100%, 42% 100%);
+    --cp7: polygon(18% 0, 90% 15%, 100% 86%, 0% 100%);
+    --cp8:  polygon(18% 0%, 100% 15%, 100% 100%, 0 86%);
+    --cp9: polygon(0 0, 100% 0, 67% 100%, 26% 100%);
+    --cp10: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    --cp11: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
+    --cp12: polygon(0 0, 60% 0, 100% 100%, 0% 90%);
+    --cp13: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    --cp14: polygon(0 0, 60% 0, 0 100%, 0% 100%);
+    --cp15: polygon(50% 0%, 25% 100%, 75% 84%);
 }
 
 .container {
@@ -23,7 +39,7 @@
 }
 
 .dawn {
-    background: linear-gradient(#ffc400, #ff7300, rgb(238, 0, 0));
+    background: var(--dawn);
     opacity: 0.9;
     width: 100%;
     height: 800px;
@@ -46,7 +62,7 @@
     position: absolute;
     top: 250px;
     left: 150px;
-    clip-path: polygon(36% 0, 100% 0, 100% 99%, 0 100%);
+    clip-path: var(--cp1);
     z-index: -8;
     border-top: 3px solid var(--coffe);
 }
@@ -67,7 +83,7 @@
     width: 50px;
     height: 310px;
     margin-left: 100px;
-    clip-path: polygon(58% 0, 80% 0, 65% 100%, 3% 100%);
+    clip-path: var(--cp2);
     z-index: -7;
 }
 
@@ -78,7 +94,7 @@
     position: absolute;
     top: 210px;
     left: 260px;
-    clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: var(--cp3);
     z-index: -8;
 }
 
@@ -154,7 +170,7 @@
 .clothes2 {
     width: 100px;
     height: 140px;
-    clip-path: polygon(20% 30%, 100% 30%, 99% 100%, 0 79%);
+    clip-path:var(--cp4);
     background-color: #fff;
     position: absolute;
     top: 160px;
@@ -168,7 +184,7 @@
     background-color: var(--coffe);
     width: 120px;
     height: 100px;
-    clip-path: polygon(0 68%, 100% 81%, 100% 100%, 0 100%);
+    clip-path:var(--cp5);
     position: absolute;
     top: 30px;
     transform: rotate(15deg);
@@ -178,7 +194,7 @@
     background-color: var(--coffe);
     width: 50px;
     height: 100px;
-    clip-path: polygon(60% 0, 61% 0, 67% 100%, 42% 100%);
+    clip-path: var(--cp6);
     position: absolute;
     top: 49px;
     left: 69px;
@@ -198,7 +214,7 @@
 .clothes3 {
     width: 90px;
     height: 70px;
-    clip-path: polygon(18% 0, 90% 15%, 100% 86%, 0% 100%);
+    clip-path: var(--cp7);
     background-color: #fff;
     position: absolute;
     top: 148px;
@@ -234,14 +250,14 @@
     height: 70px;
     background-color: var(--shadow);
     position: absolute;
-    left: 70px;
+    left: 40px;
     z-index: -8;
 }
 
 .clothes4 {
     width: 90px;
     height: 70px;
-    clip-path: polygon(18% 0%, 100% 15%, 100% 100%, 0 86%);
+    clip-path:var(--cp8);
     background-color: #fff;
     position: absolute;
     top: 141.2px;
@@ -266,7 +282,7 @@
     height: 80px;
     position: absolute;
     background-color: var(--skin);
-    clip-path: polygon(0 0, 100% 0, 67% 100%, 26% 100%);
+    clip-path: var(--cp9);
     top: 250px;
     left: 188px;
     z-index: -7;
@@ -298,7 +314,7 @@
 .swordTail>.baklava {
     width: 20px;
     height: 20px;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: var(--cp10);
     background-color: var(--yellow);
 }
 
@@ -307,7 +323,7 @@
     height: 70px;
     position: absolute;
     background-color: #000;
-    clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
+    clip-path: var(--cp11);
     transform: rotate(40deg);
     top: 335px;
     left: 235px;
@@ -318,7 +334,7 @@
     width: 30px;
     height: 200px;
     background-color: var(--sword);
-    clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 90%);
+    clip-path: var(--cp12);
     transform: rotate(-55deg);
     position: absolute;
     top: 320px;
@@ -331,7 +347,7 @@
     width: 15px;
     height: 200px;
     background-color: var(--shadow);
-    clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 90%);
+    clip-path: var(--cp12);
     position: absolute;
     top: 0;
     left: 0;
@@ -342,7 +358,7 @@
     width: 30px;
     height: 150px;
     background-color: #000;
-    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    clip-path: var(--cp13);
     position: absolute;
     transform: rotate(55deg);
     top: 250px;
@@ -505,7 +521,7 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    clip-path: polygon(0 0, 60% 0, 0 100%, 0% 100%);
+    clip-path: var(--cp14);
     background-color: #000;
     top: 15px;
     left: -2px;
@@ -515,7 +531,7 @@
 .hair4 {
     position: absolute;
     background-color: #000;
-    clip-path: polygon(50% 0%, 25% 100%, 75% 84%);
+    clip-path: var(--cp15);
     width: 20px;
     height: 35px;
     top: 5px;
