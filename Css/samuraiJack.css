@@ -1,577 +1,574 @@
 :root {
-    --coffe: #6d614d;
-    --coffeLigth: #cac1b3;
-    --yellow: #f9d851;
-    --skin: #eccd79;
-    --shadow: rgba(0, 0, 0, 0.2);
-    --sword: #c4d3d8;
-    --dawn:linear-gradient(#ffc400, #ff7300, rgb(238, 0, 0));
-    --cp1:polygon(36% 0, 100% 0, 100% 99%, 0 100%);
-    --cp2:polygon(58% 0, 80% 0, 65% 100%, 3% 100%);
-    --cp3:polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
-    --cp4: polygon(20% 30%, 100% 30%, 99% 100%, 0 79%);
-    --cp5: polygon(0 68%, 100% 81%, 100% 100%, 0 100%);
-    --cp6: polygon(60% 0, 61% 0, 67% 100%, 42% 100%);
-    --cp7: polygon(18% 0, 90% 15%, 100% 86%, 0% 100%);
-    --cp8:  polygon(18% 0%, 100% 15%, 100% 100%, 0 86%);
-    --cp9: polygon(0 0, 100% 0, 67% 100%, 26% 100%);
-    --cp10: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    --cp11: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
-    --cp12: polygon(0 0, 60% 0, 100% 100%, 0% 90%);
-    --cp13: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-    --cp14: polygon(0 0, 60% 0, 0 100%, 0% 100%);
-    --cp15: polygon(50% 0%, 25% 100%, 75% 84%);
-    
+  --coffe: #6d614d;
+  --coffeLigth: #cac1b3;
+  --yellow: #f9d851;
+  --skin: #eccd79;
+  --shadow: rgba(0, 0, 0, 0.2);
+  --sword: #c4d3d8;
+  --dawn: linear-gradient(#ffc400, #ff7300, rgb(238, 0, 0));
+  --cp1: polygon(36% 0, 100% 0, 100% 99%, 0 100%);
+  --cp2: polygon(58% 0, 80% 0, 65% 100%, 3% 100%);
+  --cp3: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
+  --cp4: polygon(20% 30%, 100% 30%, 99% 100%, 0 79%);
+  --cp5: polygon(0 68%, 100% 81%, 100% 100%, 0 100%);
+  --cp6: polygon(60% 0, 61% 0, 67% 100%, 42% 100%);
+  --cp7: polygon(18% 0, 90% 15%, 100% 86%, 0% 100%);
+  --cp8: polygon(18% 0%, 100% 15%, 100% 100%, 0 86%);
+  --cp9: polygon(0 0, 100% 0, 67% 100%, 26% 100%);
+  --cp10: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  --cp11: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
+  --cp12: polygon(0 0, 60% 0, 100% 100%, 0% 90%);
+  --cp13: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+  --cp14: polygon(0 0, 60% 0, 0 100%, 0% 100%);
+  --cp15: polygon(50% 0%, 25% 100%, 75% 84%);
 }
 
-
 .container {
-    width: 540px;
-    height: 620px;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    vertical-align: middle;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    z-index: -12;
+  width: 540px;
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  z-index: -12;
 }
 
 .dawn {
-    background: var(--dawn);
-    opacity: 0.9;
-    width: 100%;
-    height: 800px;
-    z-index: -11;
+  background: var(--dawn);
+  opacity: 0.9;
+  width: 100%;
+  height: 800px;
+  z-index: -11;
 }
 
 .floor {
-    background-color: #000;
-    width: 100%;
-    height: 200px;
-    border-radius: 50%;
-    transform: scale(1.8) rotate(-4deg);
-    z-index: -11;
+  background-color: #000;
+  width: 100%;
+  height: 200px;
+  border-radius: 50%;
+  transform: scale(1.8) rotate(-4deg);
+  z-index: -11;
 }
 
 .clothes1 {
-    background-color: #fff;
-    width: 170px;
-    height: 300px;
-    position: absolute;
-    top: 250px;
-    left: 150px;
-    clip-path: var(--cp1);
-    z-index: -8;
-    border-top: 3px solid var(--coffe);
+  background-color: #fff;
+  width: 170px;
+  height: 300px;
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  clip-path: var(--cp1);
+  z-index: -8;
+  border-top: 3px solid var(--coffe);
 }
 
-.clothes1>.shadow {
-    background-color: var(--shadow);
-    width: 20px;
-    height: 110%;
-    position: absolute;
-    top: 0px;
-    left: 151px;
-    z-index: -7;
-    transform: rotate(1deg);
+.clothes1 > .shadow {
+  background-color: var(--shadow);
+  width: 20px;
+  height: 110%;
+  position: absolute;
+  top: 0;
+  left: 151px;
+  z-index: -7;
+  transform: rotate(1deg);
 }
 
-.clothes1>.line {
-    background-color: var(--coffe);
-    width: 50px;
-    height: 310px;
-    margin-left: 100px;
-    clip-path: var(--cp2);
-    z-index: -7;
+.clothes1 > .line {
+  background-color: var(--coffe);
+  width: 50px;
+  height: 310px;
+  margin-left: 100px;
+  clip-path: var(--cp2);
+  z-index: -7;
 }
 
 .stripsBox {
-    background-color: #fff;
-    width: 60px;
-    height: 40px;
-    position: absolute;
-    top: 210px;
-    left: 260px;
-    clip-path: var(--cp3);
-    z-index: -8;
+  background-color: #fff;
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  top: 210px;
+  left: 260px;
+  clip-path: var(--cp3);
+  z-index: -8;
 }
 
 .strip1 {
-    background-color: var(--coffe);
-    width: 3px;
-    height: 40px;
-    position: absolute;
-    top: 0;
-    left: 0;
+  background-color: var(--coffe);
+  width: 3px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .strip2 {
-    background-color: var(--coffe);
-    width: 80px;
-    height: 3px;
-    position: absolute;
-    bottom: 3px;
-    left: 0;
+  background-color: var(--coffe);
+  width: 80px;
+  height: 3px;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
 }
 
 .strip3 {
-    background-color: var(--coffe);
-    width: 50px;
-    height: 3px;
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    transform: rotate(-10deg);
+  background-color: var(--coffe);
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  transform: rotate(-10deg);
 }
 
 .strip4 {
-    background-color: var(--coffe);
-    width: 50px;
-    height: 3px;
-    position: absolute;
-    bottom: 15px;
-    left: 20px;
-    transform: rotate(15deg);
+  background-color: var(--coffe);
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  transform: rotate(15deg);
 }
 
 .strip5 {
-    background-color: var(--coffe);
-    width: 70px;
-    height: 3px;
-    position: absolute;
-    bottom: 25px;
-    left: 0;
-    transform: rotate(-10deg);
+  background-color: var(--coffe);
+  width: 70px;
+  height: 3px;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  transform: rotate(-10deg);
 }
 
 .strip6 {
-    background-color: var(--coffe);
-    width: 60px;
-    height: 4px;
-    position: absolute;
-    bottom: 35px;
-    left: 0;
-    transform: rotate(-4deg);
+  background-color: var(--coffe);
+  width: 60px;
+  height: 4px;
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  transform: rotate(-4deg);
 }
 
-.stripsBox>.shadow {
-    background-color: var(--shadow);
-    width: 20px;
-    height: 110%;
-    position: absolute;
-    top: 0px;
-    left: 44px;
-    z-index: -8;
-    transform: rotate(1deg);
+.stripsBox > .shadow {
+  background-color: var(--shadow);
+  width: 20px;
+  height: 110%;
+  position: absolute;
+  top: 0;
+  left: 44px;
+  z-index: -8;
+  transform: rotate(1deg);
 }
 
 .clothes2 {
-    width: 100px;
-    height: 140px;
-    clip-path:var(--cp4);
-    background-color: #fff;
-    position: absolute;
-    top: 160px;
-    left: 165px;
-    transform: rotate(4deg);
-    z-index: -6;
-    overflow: hidden;
+  width: 100px;
+  height: 140px;
+  clip-path: var(--cp4);
+  background-color: #fff;
+  position: absolute;
+  top: 160px;
+  left: 165px;
+  transform: rotate(4deg);
+  z-index: -6;
+  overflow: hidden;
 }
 
-.clothes2>.side {
-    background-color: var(--coffe);
-    width: 120px;
-    height: 100px;
-    clip-path:var(--cp5);
-    position: absolute;
-    top: 30px;
-    transform: rotate(15deg);
+.clothes2 > .side {
+  background-color: var(--coffe);
+  width: 120px;
+  height: 100px;
+  clip-path: var(--cp5);
+  position: absolute;
+  top: 30px;
+  transform: rotate(15deg);
 }
 
-.clothes2>.side1 {
-    background-color: var(--coffe);
-    width: 50px;
-    height: 100px;
-    clip-path: var(--cp6);
-    position: absolute;
-    top: 49px;
-    left: 69px;
+.clothes2 > .side1 {
+  background-color: var(--coffe);
+  width: 50px;
+  height: 100px;
+  clip-path: var(--cp6);
+  position: absolute;
+  top: 49px;
+  left: 69px;
 }
 
-.clothes2>.shadow {
-    background-color: var(--shadow);
-    width: 50px;
-    height: 100px;
-    position: absolute;
-    transform: rotate(21deg);
-    top: 55px;
-    left: 79px;
-    z-index: -1;
+.clothes2 > .shadow {
+  background-color: var(--shadow);
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  transform: rotate(21deg);
+  top: 55px;
+  left: 79px;
+  z-index: -1;
 }
 
 .clothes3 {
-    width: 90px;
-    height: 70px;
-    clip-path: var(--cp7);
-    background-color: #fff;
-    position: absolute;
-    top: 148px;
-    left: 235px;
-    z-index: -9;
-    overflow: hidden;
+  width: 90px;
+  height: 70px;
+  clip-path: var(--cp7);
+  background-color: #fff;
+  position: absolute;
+  top: 148px;
+  left: 235px;
+  z-index: -9;
+  overflow: hidden;
 }
 
-.clothes3>.side1 {
-    width: 30px;
-    height: 25px;
-    background-color: var(--coffeLigth);
-    position: absolute;
-    transform: rotate(10deg);
-    top: -0.7px;
-    left: 25px;
-    z-index: -9;
+.clothes3 > .side1 {
+  width: 30px;
+  height: 25px;
+  background-color: var(--coffeLigth);
+  position: absolute;
+  transform: rotate(10deg);
+  top: -0.7px;
+  left: 25px;
+  z-index: -9;
 }
 
-.clothes3>.side2 {
-    width: 35px;
-    height: 25px;
-    background-color: var(--coffe);
-    position: absolute;
-    transform: rotate(10deg);
-    top: 5px;
-    left: 52px;
-    z-index: -9;
+.clothes3 > .side2 {
+  width: 35px;
+  height: 25px;
+  background-color: var(--coffe);
+  position: absolute;
+  transform: rotate(10deg);
+  top: 5px;
+  left: 52px;
+  z-index: -9;
 }
 
-.clothes3>.shadow {
-    width: 90px;
-    height: 70px;
-    background-color: var(--shadow);
-    position: absolute;
-    left: 40px;
-    z-index: -8;
+.clothes3 > .shadow {
+  width: 90px;
+  height: 70px;
+  background-color: var(--shadow);
+  position: absolute;
+  left: 40px;
+  z-index: -8;
 }
 
 .clothes4 {
-    width: 90px;
-    height: 70px;
-    clip-path:var(--cp8);
-    background-color: #fff;
-    position: absolute;
-    top: 141.2px;
-    left: 186px;
-    z-index: -9;
-    overflow: hidden;
+  width: 90px;
+  height: 70px;
+  clip-path: var(--cp8);
+  background-color: #fff;
+  position: absolute;
+  top: 141.2px;
+  left: 186px;
+  z-index: -9;
+  overflow: hidden;
 }
 
-.clothes4>.side {
-    width: 110%;
-    height: 25px;
-    background-color: var(--coffeLigth);
-    position: absolute;
-    transform: rotate(10deg);
-    top: -1px;
-    left: 0px;
-    z-index: -1;
+.clothes4 > .side {
+  width: 110%;
+  height: 25px;
+  background-color: var(--coffeLigth);
+  position: absolute;
+  transform: rotate(10deg);
+  top: -1px;
+  left: 0;
+  z-index: -1;
 }
 
 .rigthHand1 {
-    width: 50px;
-    height: 80px;
-    position: absolute;
-    background-color: var(--skin);
-    clip-path: var(--cp9);
-    top: 250px;
-    left: 188px;
-    z-index: -7;
+  width: 50px;
+  height: 80px;
+  background-color: var(--skin);
+  position: absolute;
+  clip-path: var(--cp9);
+  top: 250px;
+  left: 188px;
+  z-index: -7;
 }
 
 .rigthHand2 {
-    width: 40px;
-    height: 65px;
-    position: absolute;
-    transform: rotate(-55deg);
-    background-color: var(--skin);
-    top: 310px;
-    left: 195px;
-    z-index: -7;
+  width: 40px;
+  height: 65px;
+  position: absolute;
+  transform: rotate(-55deg);
+  background-color: var(--skin);
+  top: 310px;
+  left: 195px;
+  z-index: -7;
 }
 
 .swordTail {
-    width: 20px;
-    height: 80px;
-    position: absolute;
-    background-color: #000;
-    transform: rotate(-50deg);
-    top: 255px;
-    left: 150px;
-    z-index: -6;
-    overflow: hidden;
+  width: 20px;
+  height: 80px;
+  position: absolute;
+  background-color: #000;
+  transform: rotate(-50deg);
+  top: 255px;
+  left: 150px;
+  z-index: -6;
+  overflow: hidden;
 }
 
-.swordTail>.baklava {
-    width: 20px;
-    height: 20px;
-    clip-path: var(--cp10);
-    background-color: var(--yellow);
+.swordTail > .baklava {
+  background-color: var(--yellow);
+  width: 20px;
+  height: 20px;
+  clip-path: var(--cp10);
 }
 
 .swordMiddle {
-    width: 18px;
-    height: 70px;
-    position: absolute;
-    background-color: #000;
-    clip-path: var(--cp11);
-    transform: rotate(40deg);
-    top: 335px;
-    left: 235px;
-    z-index: -7;
+  width: 18px;
+  height: 70px;
+  background-color: #000;
+  position: absolute;
+  clip-path: calc(--cp11);
+  transform: rotate(40deg);
+  top: 335px;
+  left: 235px;
+  z-index: -7;
 }
 
 .swordHead {
-    width: 30px;
-    height: 200px;
-    background-color: var(--sword);
-    clip-path: var(--cp12);
-    transform: rotate(-55deg);
-    position: absolute;
-    top: 320px;
-    left: 320px;
-    z-index: -8;
-    overflow: hidden;
+  width: 30px;
+  height: 200px;
+  background-color: var(--sword);
+  clip-path: var(--cp12);
+  transform: rotate(-55deg);
+  position: absolute;
+  top: 320px;
+  left: 320px;
+  z-index: -8;
+  overflow: hidden;
 }
 
-.swordHead>.shadow {
-    width: 15px;
-    height: 200px;
-    background-color: var(--shadow);
-    clip-path: var(--cp12);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -8;
+.swordHead > .shadow {
+  width: 15px;
+  height: 200px;
+  background-color: var(--shadow);
+  clip-path: var(--cp12);
+  top: 0;
+  left: 0;
+  z-index: -8;
 }
 
 .swordCover1 {
-    width: 30px;
-    height: 150px;
-    background-color: #000;
-    clip-path: var(--cp13);
-    position: absolute;
-    transform: rotate(55deg);
-    top: 250px;
-    left: 150px;
-    z-index: -10;
+  width: 30px;
+  height: 150px;
+  background-color: #000;
+  clip-path: var(--cp13);
+  position: absolute;
+  transform: rotate(55deg);
+  top: 250px;
+  left: 150px;
+  z-index: -10;
 }
 
 .leftHand1 {
-    position: absolute;
-    background-color: var(--skin);
-    width: 45px;
-    height: 20px;
-    top: 215px;
-    left: 310px;
-    transform: rotate(-25deg);
-    border: 2px solid var(--coffe);
-    z-index: -9;
-    overflow: hidden;
+  position: absolute;
+  background-color: var(--skin);
+  width: 45px;
+  height: 20px;
+  top: 215px;
+  left: 310px;
+  transform: rotate(-25deg);
+  border: 2px solid var(--coffe);
+  z-index: -9;
+  overflow: hidden;
 }
 
-.leftHand1>.line1 {
-    position: absolute;
-    width: 2px;
-    height: 30px;
-    background-color: var(--coffe);
-    left: 15px;
+.leftHand1 > .line1 {
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background-color: var(--coffe);
+  left: 15px;
 }
 
-.leftHand1>.line2 {
-    position: absolute;
-    width: 2px;
-    height: 30px;
-    background-color: var(--coffe);
-    left: 35px;
+.leftHand1 > .line2 {
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background-color: var(--coffe);
+  left: 35px;
 }
 
 .leftHand2 {
-    position: absolute;
-    background-color: var(--skin);
-    width: 45px;
-    height: 25px;
-    top: 195px;
-    left: 314px;
-    transform: rotate(-25deg);
-    z-index: -10;
+  position: absolute;
+  background-color: var(--skin);
+  width: 45px;
+  height: 25px;
+  top: 195px;
+  left: 314px;
+  transform: rotate(-25deg);
+  z-index: -10;
 }
 
 .leftHand3 {
-    position: absolute;
-    width: 20px;
-    height: 7px;
-    background-color: var(--skin);
-    border-bottom: 2px solid var(--coffe);
-    border-top: 2px solid var(--coffe);
-    border-left: 2px solid var(--coffe);
-    transform: rotate(-25deg);
-    top: 208px;
-    left: 333px;
+  position: absolute;
+  width: 20px;
+  height: 7px;
+  background-color: var(--skin);
+  border-bottom: 2px solid var(--coffe);
+  border-top: 2px solid var(--coffe);
+  border-left: 2px solid var(--coffe);
+  transform: rotate(-25deg);
+  top: 208px;
+  left: 333px;
 }
 
 .swordCover2 {
-    width: 20px;
-    height: 40px;
-    background-color: #000;
-    position: absolute;
-    transform: rotate(65deg);
-    top: 192px;
-    left: 340px;
-    z-index: -11;
+  width: 20px;
+  height: 40px;
+  background-color: #000;
+  position: absolute;
+  transform: rotate(65deg);
+  top: 192px;
+  left: 340px;
+  z-index: -11;
 }
 
 .neck1 {
-    background-color: var(--skin);
-    position: absolute;
-    width: 60px;
-    height: 80px;
-    top: 100px;
-    left: 215px;
-    transform: rotate(35deg);
-    z-index: -10;
+  background-color: var(--skin);
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  top: 100px;
+  left: 215px;
+  transform: rotate(35deg);
+  z-index: -10;
 }
 
 .neck2 {
-    background-color: var(--skin);
-    position: absolute;
-    width: 40px;
-    height: 80px;
-    top: 110px;
-    left: 260px;
-    z-index: -10;
+  background-color: var(--skin);
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  top: 110px;
+  left: 260px;
+  z-index: -10;
 }
 
 .head {
-    background-color: var(--skin);
-    position: absolute;
-    width: 70px;
-    height: 100px;
-    top: 35px;
-    left: 255px;
-    z-index: -10;
-    transform: rotate(35deg);
-    overflow: hidden;
+  background-color: var(--skin);
+  position: absolute;
+  width: 70px;
+  height: 100px;
+  transform: rotate(35deg);
+  top: 35px;
+  left: 255px;
+  z-index: -10;
+  overflow: hidden;
 }
 
 .chin1 {
-    position: absolute;
-    background-color: var(--coffe);
-    height: 2px;
-    width: 65%;
-    bottom: 2px;
-    transform: rotate(-5deg);
-    left: 20px;
+  position: absolute;
+  background-color: var(--coffe);
+  height: 2px;
+  width: 65px;
+  bottom: 2px;
+  transform: rotate(-5deg);
+  left: 20px;
 }
 
 .chin2 {
-    position: absolute;
-    background-color: var(--coffe);
-    width: 2px;
-    height: 35px;
-    top: 82px;
-    left: 252px;
-    transform: rotate(10deg);
-    z-index: -7;
+  position: absolute;
+  background-color: var(--coffe);
+  width: 2px;
+  height: 35px;
+  top: 82px;
+  left: 252px;
+  transform: rotate(10deg);
+  z-index: -7;
 }
 
 .ear {
-    position: absolute;
-    background-color: var(--skin);
-    width: 20px;
-    height: 40px;
-    border-radius: 25px;
-    top: 55px;
-    left: 245px;
-    z-index: -8;
+  background-color: var(--skin);
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  top: 55px;
+  z-index: -8;
+  left: 245px;
+  border-radius: 25px;
 }
 
 .hair1 {
-    position: absolute;
-    background-color: #000;
-    width: 80px;
-    height: 100px;
-    top: -82px;
-    z-index: -9;
-    left: 15px;
-    transform: rotate(20deg) skew(-30deg);
+  position: absolute;
+  background-color: #000;
+  width: 80px;
+  height: 100px;
+  top: -82px;
+  z-index: -9;
+  left: 15px;
+  transform: rotate(20deg) skew(-30deg);
 }
 
 .hair2 {
-    position: absolute;
-    background-color: #000;
-    width: 50px;
-    height: 50px;
-    top: -20px;
-    z-index: -9;
-    left: -40px;
-    transform: rotate(-25deg);
+  position: absolute;
+  background-color: #000;
+  width: 50px;
+  height: 50px;
+  top: -20px;
+  z-index: -9;
+  left: -40px;
+  transform: rotate(-25deg);
 }
 
 .hair3 {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    clip-path: var(--cp14);
-    background-color: #000;
-    top: 15px;
-    left: -2px;
-    transform: rotate(-40deg);
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  clip-path: var(--cp14);
+  background-color: #000;
+  top: 15px;
+  left: -2px;
+  transform: rotate(-40deg);
 }
 
 .hair4 {
-    position: absolute;
-    background-color: #000;
-    clip-path: var(--cp15);
-    width: 20px;
-    height: 35px;
-    top: 5px;
-    left: 280px;
-    transform: rotate(170deg) matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+  background-color: #000;
+  clip-path: var(--cp15);
+  width: 20px;
+  height: 35px;
+  top: 5px;
+  left: 280px;
+  transform: rotate(170deg) matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .hair5 {
-    background-color: #000;
-    position: absolute;
-    top: 15px;
-    left: 281px;
-    width: 15px;
-    height: 3px;
-    border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  top: 15px;
+  left: 281px;
+  width: 15px;
+  height: 3px;
+  border-radius: 50%;
 }
 
 .mouth {
-    position: absolute;
-    background-color: var(--shadow);
-    width: 12px;
-    height: 2px;
-    top: 63px;
-    left: 38px;
-    transform: rotate(-2deg);
+  position: absolute;
+  background-color: var(--shadow);
+  width: 12px;
+  height: 2px;
+  top: 63px;
+  left: 38px;
+  transform: rotate(-2deg);
 }
 
-.nose1 {
+.nose1{
     position: absolute;
     background-color: #000;
     width: 10px;
     height: 2px;
     top: 55px;
     left: 40px;
-    transform: rotate(-10deg);
+    transform: rotate(10deg);
 }
 
-.nose2 {
+.nose2{
     position: absolute;
     background-color: #000;
     width: 2px;
@@ -581,7 +578,7 @@
     transform: rotate(3deg);
 }
 
-.nose3 {
+.nose3{
     position: absolute;
     background-color: #000;
     width: 2px;
@@ -591,7 +588,7 @@
     transform: rotate(3deg);
 }
 
-.eyeLeft1 {
+.eyeLeft1{
     position: absolute;
     width: 15px;
     height: 12px;
@@ -606,7 +603,7 @@
     z-index: -10;
 }
 
-.eyeLeft1>.leftIris {
+.eyeLeft1>.leftIris{
     position: absolute;
     width: 10px;
     height: 8px;
@@ -614,11 +611,12 @@
     border-radius: 50%;
     top: -2px;
     left: 1px;
+
 }
 
-.leftBrown {
-    position: absolute;
+.leftBrown{
     background-color: #000;
+    position: absolute;
     width: 4px;
     height: 22px;
     top: 14px;
@@ -626,7 +624,7 @@
     transform: rotate(-65deg);
 }
 
-.rightBrown {
+.rightBrown{
     position: absolute;
     background-color: #000;
     width: 2px;
@@ -636,7 +634,8 @@
     transform: rotate(50deg);
 }
 
-.eyeLeft2 {
+
+.eyeLeft2{
     position: absolute;
     width: 9px;
     height: 10px;
@@ -649,7 +648,7 @@
     z-index: -11;
 }
 
-.eyesRight1 {
+.eyesRight1{
     position: absolute;
     background-color: #fff;
     width: 7px;
@@ -659,7 +658,7 @@
     border-bottom: 2px solid #000;
 }
 
-.eyesRight2 {
+.eyesRight2{
     position: absolute;
     background-color: #fff;
     width: 15px;
@@ -669,14 +668,43 @@
     border-bottom: 2px solid #000;
     border-right: 2px solid #000;
     transform: rotate(-40deg);
+
 }
 
-.rightIris {
+
+.rightIris{
     position: absolute;
     width: 10px;
     height: 8px;
-    background-color: #000;
     border-radius: 50%;
+    background-color: #000;
     top: 27px;
     left: 50px;
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
