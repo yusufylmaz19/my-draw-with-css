@@ -1,0 +1,175 @@
+:root{
+    --yellow:#dd9a00;
+}
+
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color:  #000;
+    width: 500px;
+    height: 600px;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+.faceUp{
+    background-color: var(--yellow);
+    width: 340px;
+    height: 150px;
+    position: absolute;
+    top: 170px;
+    left: calc(50% - 170px);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.faceUpSide{
+    background-color: #000;
+    width: 40px;
+    height: 160px;
+    position: absolute;
+}
+
+.faceUpLeft{
+    transform: rotate(15deg);
+    top: -10px;
+    left: -20px;
+}
+
+.faceUpRight{
+    transform: rotate(-15deg);
+    top: -10px;
+    right: -20px;
+}
+
+.circle{
+    background-color: var(--yellow);
+    width: 125px;
+    height: 125px;
+    border: 7px solid #000;
+    border-radius: 50%;
+}
+
+.leftGlass{
+    position: absolute;
+    left: 20px;
+    top: 1px;
+}
+
+.rightGlass{
+    position: absolute;
+    left: 180px;
+    top: 1px;
+}
+
+.glassTie{
+    background-color: #000;
+    width: 30px;
+    height: 15px;
+    position: absolute;
+    top: calc(50% - 5px);
+    left: calc(50% - 15px);
+}
+.head{
+    background-color: var(--yellow);
+    width: 190px;
+    height: 190px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: calc(50% - 221px);
+    left: calc(50% - 95px);
+    z-index: -1;
+}
+
+.faceDown{
+    background-color: var(--yellow);
+    width:350px;
+    height: 150px;
+    position: absolute;
+    top: 320px;
+    left: calc(50% - 175px);
+    overflow: hidden;
+    z-index: 1;
+}
+.faceDownSide{
+    background-color: #000;
+    width: 45px;
+    height: 170px;
+    position: absolute;
+}
+.faceDownLeft{
+    transform: rotate(-20deg);
+    top: -10px;
+    left: -15px;
+}
+
+.faceDownRight{
+    transform: rotate(20deg);
+    top: -10px;
+    right: -15px;
+}
+
+.mustache{
+    width: 0;
+    height: 0;
+    border: 500px solid transparent;
+    border-top: 0;
+    border-bottom: 200px solid #000;
+    position: absolute;
+} 
+
+.mustacheLeft{
+    top: 60px;
+    left: -350px;
+}
+.mustacheRight{
+    top: 60px;
+    right: -350px;
+}
+
+.chin{
+    background-color: var(--yellow);
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    top: 460px;
+    left: calc(50% - 90px);
+    overflow: hidden;
+    z-index: 1;
+} 
+
+.chinSide{
+    background-color: #000;
+    width: 40px;
+    height: 180px;
+    position: absolute;
+}
+
+.chinLeft{
+    transform: rotate(20deg);
+    top: -20px;
+    left: -30px;
+}
+
+.chinRight{
+    transform: rotate(-20deg);
+    top: -20px;
+    right: -30px;
+} 
+
+.square{
+    background-color: #000;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: calc(50% - 5px);
+    left: calc(50% - 25px);
+}
