@@ -15,7 +15,7 @@ body {
   overflow: hidden;
 }
 
-.walle-e {
+.wall-e {
   width: 360px;
   height: 400px;
   position: relative;
@@ -24,7 +24,7 @@ body {
   overflow: hidden;
   z-index: 1;
 }
-.walle-e .body {
+.wall-e .body {
   background-color: #fad565;
   width: 180px;
   height: 185px;
@@ -33,50 +33,50 @@ body {
   top: calc(50% - 55px);
   left: calc(50% - 90px);
 }
-.walle-e .body .chest {
+.wall-e .body .chest {
   width: 100%;
   height: 55px;
   background-color: #949494;
   position: absolute;
   border-bottom: 6px solid #5a595a;
 }
-.walle-e .body .leftHand::before, .walle-e .body .leftHand::after {
+.wall-e .body .leftHand::before, .wall-e .body .leftHand::after {
   content: "";
   width: 40px;
   height: 15px;
   background-color: #ddcab5;
   position: absolute;
 }
-.walle-e .body .leftHand::before {
+.wall-e .body .leftHand::before {
   border-top: 6px solid #5a595a;
   border-right: 6px solid #5a595a;
   top: 34px;
 }
-.walle-e .body .leftHand::after {
+.wall-e .body .leftHand::after {
   border-bottom: 6px solid #5a595a;
   border-right: 6px solid #5a595a;
   top: 61px;
 }
-.walle-e .body .rightHand::before, .walle-e .body .rightHand::after {
+.wall-e .body .rightHand::before, .wall-e .body .rightHand::after {
   content: "";
   width: 40px;
   height: 15px;
   background-color: #ddcab5;
   position: absolute;
 }
-.walle-e .body .rightHand::before {
+.wall-e .body .rightHand::before {
   border-top: 6px solid #5a595a;
   border-left: 6px solid #5a595a;
   top: 34px;
   right: 0;
 }
-.walle-e .body .rightHand::after {
+.wall-e .body .rightHand::after {
   border-bottom: 6px solid #5a595a;
   border-left: 6px solid #5a595a;
   top: 61px;
   right: 0;
 }
-.walle-e .body::before, .walle-e .body::after {
+.wall-e .body::before, .wall-e .body::after {
   content: "";
   background-color: #ddcab5;
   width: 35px;
@@ -87,13 +87,13 @@ body {
   z-index: -1;
   top: 35px;
 }
-.walle-e .body::before {
+.wall-e .body::before {
   left: -25px;
 }
-.walle-e .body::after {
+.wall-e .body::after {
   right: -25px;
 }
-.walle-e .wheel {
+.wall-e .wheel {
   background-color: #8e7a6f;
   width: 55px;
   height: 150px;
@@ -102,7 +102,7 @@ body {
   z-index: 0;
   overflow: hidden;
 }
-.walle-e .wheel .box {
+.wall-e .wheel .box {
   width: 60px;
   height: 50px;
   position: absolute;
@@ -110,15 +110,15 @@ body {
   border-top: 7px solid #5a595a;
   border-bottom: 7px solid #5a595a;
 }
-.walle-e .leftWheel {
+.wall-e .leftWheel {
   bottom: 4px;
   left: 27px;
 }
-.walle-e .wheel.rightWheel {
+.wall-e .wheel.rightWheel {
   bottom: 4px;
   right: 15px;
 }
-.walle-e .neck::before {
+.wall-e .neck::before {
   content: "";
   background-color: #fad565;
   width: 45px;
@@ -129,7 +129,7 @@ body {
   border: 6px solid #5a595a;
   z-index: -1;
 }
-.walle-e .neck::after {
+.wall-e .neck::after {
   content: "";
   background-color: #fad565;
   width: 15px;
@@ -140,7 +140,7 @@ body {
   border: 6px solid #5a595a;
   z-index: -2;
 }
-.walle-e .head::before {
+.wall-e .head::before {
   content: "";
   background-color: #949494;
   width: 35px;
@@ -151,7 +151,7 @@ body {
   border: 6px solid #5a595a;
   z-index: -3;
 }
-.walle-e .head::after {
+.wall-e .head::after {
   content: "";
   background-color: transparent;
   width: 65px;
@@ -163,7 +163,7 @@ body {
   border-radius: 50%;
   z-index: -4;
 }
-.walle-e .leftEye {
+.wall-e .leftEye {
   background-color: #949494;
   width: 90px;
   height: 65px;
@@ -175,7 +175,7 @@ body {
   transform: rotate(-5deg);
   overflow: hidden;
 }
-.walle-e .leftEye::before {
+.wall-e .leftEye::before {
   content: "";
   background-color: #4c4c4d;
   width: 60px;
@@ -185,7 +185,7 @@ body {
   left: 25px;
   border-radius: 50%;
 }
-.walle-e .rightEye {
+.wall-e .rightEye {
   background-color: #949494;
   width: 90px;
   height: 65px;
@@ -196,7 +196,7 @@ body {
   border-radius: 50px 20px 80px 50px;
   transform: rotate(5deg) matrix(-1, 0, 0, 1, 0, 0);
 }
-.walle-e .rightEye::before {
+.wall-e .rightEye::before {
   content: "";
   background-color: #4c4c4d;
   width: 60px;
@@ -206,7 +206,7 @@ body {
   left: 25px;
   border-radius: 50%;
 }
-.walle-e .shadow {
+.wall-e .shadow {
   background: rgba(60, 60, 60, 0.6);
   width: 350px;
   height: 15px;
@@ -215,7 +215,7 @@ body {
   left: calc(50% - 175px);
   border-radius: 50%;
 }
-.walle-e .text {
+.wall-e .text {
   position: absolute;
   bottom: 5px;
   right: 10px;
@@ -226,10 +226,10 @@ body {
   font-weight: bold;
   z-index: 2;
 }
-.walle-e .text span {
+.wall-e .text span {
   margin-left: 10px;
 }
-.walle-e .text span::before {
+.wall-e .text span::before {
   content: "";
   background-color: #d01f3e;
   width: 28px;
