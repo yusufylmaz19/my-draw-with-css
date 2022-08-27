@@ -24,7 +24,7 @@ body {
   overflow: hidden;
   z-index: 1;
 }
-.walle-e > .body {
+.walle-e .body {
   background-color: #fad565;
   width: 180px;
   height: 185px;
@@ -33,50 +33,50 @@ body {
   top: calc(50% - 55px);
   left: calc(50% - 90px);
 }
-.walle-e > .body .chest {
+.walle-e .body .chest {
   width: 100%;
   height: 55px;
   background-color: #949494;
   position: absolute;
   border-bottom: 6px solid #5a595a;
 }
-.walle-e > .body .leftHand::before, .walle-e > .body .leftHand::after {
+.walle-e .body .leftHand::before, .walle-e .body .leftHand::after {
   content: "";
   width: 40px;
   height: 15px;
   background-color: #ddcab5;
   position: absolute;
 }
-.walle-e > .body .leftHand::before {
+.walle-e .body .leftHand::before {
   border-top: 6px solid #5a595a;
   border-right: 6px solid #5a595a;
   top: 34px;
 }
-.walle-e > .body .leftHand::after {
+.walle-e .body .leftHand::after {
   border-bottom: 6px solid #5a595a;
   border-right: 6px solid #5a595a;
   top: 61px;
 }
-.walle-e > .body .rightHand::before, .walle-e > .body .rightHand::after {
+.walle-e .body .rightHand::before, .walle-e .body .rightHand::after {
   content: "";
   width: 40px;
   height: 15px;
   background-color: #ddcab5;
   position: absolute;
 }
-.walle-e > .body .rightHand::before {
+.walle-e .body .rightHand::before {
   border-top: 6px solid #5a595a;
   border-left: 6px solid #5a595a;
   top: 34px;
   right: 0;
 }
-.walle-e > .body .rightHand::after {
+.walle-e .body .rightHand::after {
   border-bottom: 6px solid #5a595a;
   border-left: 6px solid #5a595a;
   top: 61px;
   right: 0;
 }
-.walle-e > .body::before, .walle-e > .body::after {
+.walle-e .body::before, .walle-e .body::after {
   content: "";
   background-color: #ddcab5;
   width: 35px;
@@ -87,10 +87,10 @@ body {
   z-index: -1;
   top: 35px;
 }
-.walle-e > .body::before {
+.walle-e .body::before {
   left: -25px;
 }
-.walle-e > .body::after {
+.walle-e .body::after {
   right: -25px;
 }
 .walle-e .wheel {
@@ -118,7 +118,7 @@ body {
   bottom: 4px;
   right: 15px;
 }
-.walle-e > .neck::before {
+.walle-e .neck::before {
   content: "";
   background-color: #fad565;
   width: 45px;
@@ -129,7 +129,7 @@ body {
   border: 6px solid #5a595a;
   z-index: -1;
 }
-.walle-e > .neck::after {
+.walle-e .neck::after {
   content: "";
   background-color: #fad565;
   width: 15px;
@@ -140,7 +140,7 @@ body {
   border: 6px solid #5a595a;
   z-index: -2;
 }
-.walle-e > .head::before {
+.walle-e .head::before {
   content: "";
   background-color: #949494;
   width: 35px;
@@ -151,7 +151,7 @@ body {
   border: 6px solid #5a595a;
   z-index: -3;
 }
-.walle-e > .head::after {
+.walle-e .head::after {
   content: "";
   background-color: transparent;
   width: 65px;
@@ -163,48 +163,82 @@ body {
   border-radius: 50%;
   z-index: -4;
 }
-.walle-e > .leftEye {
+.walle-e .leftEye {
   background-color: #949494;
-  width: 100px;
-  height: 75px;
+  width: 90px;
+  height: 65px;
   position: absolute;
   top: 10px;
-  left: 60px;
+  left: 70px;
   border: 6px solid #5a595a;
-  border-radius: 100% 0% 68% 32%/58% 11% 89% 42%;
-  transform: rotate(5deg);
+  border-radius: 50px 20px 80px 50px;
+  transform: rotate(-5deg);
   overflow: hidden;
 }
-.walle-e > .leftEye::before {
+.walle-e .leftEye::before {
   content: "";
   background-color: #4c4c4d;
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   position: absolute;
-  top: 7px;
-  left: 35px;
+  top: 0px;
+  left: 25px;
   border-radius: 50%;
 }
-.walle-e > .rightEye {
+.walle-e .rightEye {
   background-color: #949494;
-  width: 100px;
-  height: 75px;
+  width: 90px;
+  height: 65px;
   position: absolute;
   top: 10px;
-  right: 50px;
+  right: 60px;
   border: 6px solid #5a595a;
-  border-radius: 100% 0% 68% 32%/58% 11% 89% 42%;
-  transform: rotate(-5deg) matrix(-1, 0, 0, 1, 0, 0);
+  border-radius: 50px 20px 80px 50px;
+  transform: rotate(5deg) matrix(-1, 0, 0, 1, 0, 0);
 }
-.walle-e > .rightEye::before {
+.walle-e .rightEye::before {
   content: "";
   background-color: #4c4c4d;
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   position: absolute;
-  top: 7px;
-  left: 35px;
+  top: 0px;
+  left: 25px;
   border-radius: 50%;
+}
+.walle-e .shadow {
+  background: rgba(60, 60, 60, 0.6);
+  width: 350px;
+  height: 15px;
+  position: absolute;
+  bottom: -8px;
+  left: calc(50% - 175px);
+  border-radius: 50%;
+}
+.walle-e .text {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  color: #e9eaeb;
+  text-align: center;
+  font-weight: bold;
+  z-index: 2;
+}
+.walle-e .text span {
+  margin-left: 10px;
+}
+.walle-e .text span::before {
+  content: "";
+  background-color: #d01f3e;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: calc(50% - 15px);
+  right: calc(50% - 58px);
+  border-radius: 50%;
+  z-index: -1;
 }
 
 .eve {
@@ -238,18 +272,18 @@ body {
   right: -25px;
   transform: rotate(-5deg);
 }
-.eve > .head {
+.eve .head {
   background-color: #e9eaeb;
   width: 150px;
   height: 120px;
   position: absolute;
-  top: -150px;
-  left: -5px;
+  top: calc(50% - 270px);
+  left: calc(50% - 75px);
   border: 6px solid #5a595a;
   border-radius: 54% 46% 54% 46%/64% 64% 36% 36%;
   overflow: hidden;
 }
-.eve > .head .eyes {
+.eve .head .eyes {
   content: "";
   background-color: #4c4c4d;
   width: 110px;
@@ -296,6 +330,15 @@ body {
   position: absolute;
   top: 10px;
   left: -2px;
+  border-radius: 50%;
+}
+.eve .shadow {
+  background: rgba(60, 60, 60, 0.6);
+  width: 100px;
+  height: 10px;
+  position: absolute;
+  bottom: -135px;
+  left: calc(50% - 50px);
   border-radius: 50%;
 }
 
