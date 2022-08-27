@@ -7,7 +7,6 @@ body {
 .container {
   width: 700px;
   height: 600px;
-  border-radius: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -20,7 +19,7 @@ body {
   height: 400px;
   position: relative;
   top: calc(50% - 150px);
-  left: calc(100% - 630px);
+  left: calc(50% - 300px);
   overflow: hidden;
   z-index: 1;
 }
@@ -32,6 +31,31 @@ body {
   border: 6px solid #5a595a;
   top: calc(50% - 55px);
   left: calc(50% - 90px);
+}
+.wall-e .body .text {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  color: #e9eaeb;
+  text-align: center;
+  font-weight: bold;
+  z-index: 2;
+}
+.wall-e .body .text span {
+  margin-left: 10px;
+}
+.wall-e .body .text span::before {
+  content: "";
+  background-color: #d01f3e;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: calc(50% - 15px);
+  right: calc(50% - 58px);
+  border-radius: 50%;
+  z-index: -1;
 }
 .wall-e .body .chest {
   width: 100%;
@@ -107,14 +131,14 @@ body {
   height: 50px;
   position: absolute;
   top: calc(50% - 30px);
-  border-top: 7px solid #5a595a;
-  border-bottom: 7px solid #5a595a;
+  border-top: 6px solid #5a595a;
+  border-bottom: 6px solid #5a595a;
 }
 .wall-e .leftWheel {
   bottom: 4px;
-  left: 27px;
+  left: 25px;
 }
-.wall-e .wheel.rightWheel {
+.wall-e .rightWheel {
   bottom: 4px;
   right: 15px;
 }
@@ -215,39 +239,14 @@ body {
   left: calc(50% - 175px);
   border-radius: 50%;
 }
-.wall-e .text {
-  position: absolute;
-  bottom: 5px;
-  right: 10px;
-  font-family: sans-serif;
-  font-size: 1.4rem;
-  color: #e9eaeb;
-  text-align: center;
-  font-weight: bold;
-  z-index: 2;
-}
-.wall-e .text span {
-  margin-left: 10px;
-}
-.wall-e .text span::before {
-  content: "";
-  background-color: #d01f3e;
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  top: calc(50% - 15px);
-  right: calc(50% - 58px);
-  border-radius: 50%;
-  z-index: -1;
-}
 
 .eve {
   background-color: #e9eaeb;
   width: 160px;
   height: 240px;
   position: absolute;
-  top: calc(100% - 430px);
-  left: calc(100% - 250px);
+  top: calc(50% - 130px);
+  left: calc(50% - -90px);
   border: 6px solid #5a595a;
   border-radius: 49% 51% 49% 51%/25% 25% 75% 75%;
   z-index: 0;
