@@ -2,17 +2,16 @@ $pruple1: #d15fbc;
 $pruple2: #4b3d78;
 $pruple3: #fdb4cf;
 $pruple4: #8a34bd;
-$pruple5: #d15fbc;
-$pruple6: #97246f;
-$pruple7: #f58ab8;
-$pruple8: #b392c7;
-$pruple9: #d25fbc;
-$pruple10: #d98cde;
-$pruple11: #ff8ab4;
+$pruple5: #97246f;
+$pruple6: #f58ab8;
+$pruple7: #b392c7;
+$pruple8: #d25fbc;
+$pruple9: #d98cde;
+$pruple10: #ff8ab4;
 $pruple12: #f975be;
-$pruple13: #b093c5;
-$pruple14: #a4a2d1;
-$pruple15: #d0b5e8;
+$pruple12: #b093c5;
+$pruple13: #a4a2d1;
+$pruple14: #d0b5e8;
 $blue1: #b7eeeb;
 $blue2: #7caff0;
 $red1: #c6242f;
@@ -23,31 +22,31 @@ $red5: #feb992;
 $red6: #922929;
 $yellow1: #d07107;
 $yellow2: #ffe037;
-$yellow3: #ffd403;
-$yellow4: #f5cb77;
+$yellow3:#ffd403;
+$yellow4:#f5cb77;
 $yellow5: #f9e91a;
-$yellow6: #ffa574;
+$yellow6:#ffa574;
 $black: #000000;
 $white: #ffffff;
 
-.container {
+ .container {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: black;
+  background-color: $black;
   width: 420px;
   height: 640px;
   overflow: hidden;
 
-  .d1 {
+   .d1 {
     position: absolute;
     width: 100%;
     height: 490px;
     background-color: $pruple2;
     z-index: -12;
   }
-  .d2 {
+   .d2 {
     position: absolute;
     width: 50px;
     height: 60px;
@@ -57,7 +56,7 @@ $white: #ffffff;
     top: -35px;
     left: -30px;
   }
-  .d3 {
+   .d3 {
     position: absolute;
     width: 30px;
     height: 60px;
@@ -67,7 +66,7 @@ $white: #ffffff;
     top: -35px;
     left: 20px;
   }
-  .d4 {
+   .d4 {
     position: absolute;
     width: 12px;
     height: 60px;
@@ -78,7 +77,7 @@ $white: #ffffff;
     top: 10px;
     left: 2px;
   }
-  .d5 {
+   .d5 {
     position: absolute;
     width: 100px;
     height: 140px;
@@ -86,7 +85,7 @@ $white: #ffffff;
     z-index: -11;
     top: 50px;
   }
-  .d6 {
+   .d6 {
     position: absolute;
     width: 15px;
     height: 95px;
@@ -95,7 +94,7 @@ $white: #ffffff;
     z-index: -10;
     top: 50px;
   }
-  .d7 {
+   .d7 {
     position: absolute;
     width: 85px;
     height: 150px;
@@ -105,7 +104,7 @@ $white: #ffffff;
     top: -45px;
     left: 52px;
   }
-  .d8 {
+   .d8 {
     position: absolute;
     background-color: $yellow2;
     width: 240px;
@@ -114,7 +113,7 @@ $white: #ffffff;
     left: 60px;
     z-index: -11;
   }
-  .d9 {
+   .d9 {
     position: absolute;
     background-color: $yellow2;
     width: 200px;
@@ -123,7 +122,7 @@ $white: #ffffff;
     left: 100px;
     z-index: -12;
   }
-  .d10 {
+   .d10 {
     position: absolute;
     background-color: $pruple2;
     width: 200px;
@@ -131,7 +130,7 @@ $white: #ffffff;
     left: 140px;
     z-index: -11;
   }
-  .d11 {
+   .d11 {
     position: absolute;
     background-color: $pruple2;
     width: 65px;
@@ -141,7 +140,7 @@ $white: #ffffff;
     transform: rotate(-50deg);
     z-index: -11;
   }
-  .d12 {
+   .d12 {
     position: absolute;
     background-color: $pruple2;
     width: 60px;
@@ -150,7 +149,7 @@ $white: #ffffff;
     top: 25px;
     z-index: -11;
   }
-  .d13 {
+   .d13 {
     position: absolute;
     background-color: $black;
     width: 60px;
@@ -160,7 +159,7 @@ $white: #ffffff;
     transform: rotate(-35deg);
     z-index: -11;
   }
-  .d14 {
+   .d14 {
     position: absolute;
     background-color: $yellow3;
     width: 60px;
@@ -170,7 +169,7 @@ $white: #ffffff;
     transform: rotate(-35deg);
     z-index: -11;
   }
-  .d15 {
+   .d15 {
     position: absolute;
     background-color: $yellow1;
     width: 20px;
@@ -179,7 +178,7 @@ $white: #ffffff;
     top: -22px;
     left: 320px;
   }
-  .d16 {
+   .d16 {
     position: absolute;
     background-color: $yellow1;
     width: 50px;
@@ -188,7 +187,7 @@ $white: #ffffff;
     top: 81px;
     left: 351px;
   }
-  .d17 {
+   .d17 {
     position: absolute;
     background-color: $yellow3;
     width: 50px;
@@ -197,7 +196,7 @@ $white: #ffffff;
     left: 380px;
     z-index: -9;
   }
-  .d18 {
+   .d18 {
     position: absolute;
     background-color: $yellow1;
     width: 28px;
@@ -207,7 +206,7 @@ $white: #ffffff;
     clip-path: polygon(50% 0%, 9% 100%, 66% 79%);
     transform: rotate(-30deg);
   }
-  .d19 {
+   .d19 {
     position: absolute;
     background-color: $yellow1;
     width: 20px;
@@ -217,7 +216,7 @@ $white: #ffffff;
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
     transform: rotate(-5deg);
   }
-  .d20 {
+   .d20 {
     position: absolute;
     background-color: $pruple3;
     width: 13px;
@@ -226,7 +225,7 @@ $white: #ffffff;
     left: 313px;
     transform: rotate(-35deg);
   }
-  .d21 {
+   .d21 {
     position: absolute;
     background-color: $pruple3;
     width: 25px;
@@ -236,7 +235,7 @@ $white: #ffffff;
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
     transform: rotate(-20deg);
   }
-  .d22 {
+   .d22 {
     position: absolute;
     background-color: $pruple3;
     width: 13px;
@@ -246,7 +245,7 @@ $white: #ffffff;
     clip-path: polygon(5% 0, 97% 0, 100% 95%, 0% 100%);
     transform: rotate(-20deg);
   }
-  .d23 {
+   .d23 {
     position: absolute;
     background-color: $yellow1;
     width: 15px;
@@ -256,7 +255,7 @@ $white: #ffffff;
     clip-path: polygon(61% 0, 0% 100%, 100% 0);
     transform: rotate(-30deg);
   }
-  .d24 {
+   .d24 {
     position: absolute;
     background-color: $pruple3;
     width: 25px;
@@ -266,7 +265,7 @@ $white: #ffffff;
     clip-path: polygon(65% 0, 0% 100%, 100% 0);
     transform: rotate(-8deg);
   }
-  .d25 {
+   .d25 {
     position: absolute;
     background-color: $pruple3;
     width: 15px;
@@ -276,7 +275,7 @@ $white: #ffffff;
     transform: rotate(-20deg);
     clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
   }
-  .d26 {
+   .d26 {
     position: absolute;
     background-color: $pruple3;
     width: 15px;
@@ -286,7 +285,7 @@ $white: #ffffff;
     transform: rotate(-25deg);
     clip-path: polygon(70% 30%, 0% 100%, 100% 60%);
   }
-  .d27 {
+   .d27 {
     position: absolute;
     background-color: $pruple3;
     width: 12px;
@@ -296,7 +295,7 @@ $white: #ffffff;
     transform: rotate(-17deg);
     clip-path: polygon(0 0, 100% 0, 80% 100%, 21% 100%);
   }
-  .d28 {
+   .d28 {
     position: absolute;
     background-color: $pruple3;
     width: 20px;
@@ -306,7 +305,7 @@ $white: #ffffff;
     transform: rotate(-160deg);
     clip-path: polygon(0 0, 0 96%, 58% 100%);
   }
-  .d29 {
+   .d29 {
     position: absolute;
     background-color: $pruple3;
     width: 15px;
@@ -316,7 +315,7 @@ $white: #ffffff;
     transform: rotate(-20deg);
     clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
   }
-  .d30 {
+   .d30 {
     position: absolute;
     background-color: $pruple3;
     width: 25px;
@@ -326,7 +325,7 @@ $white: #ffffff;
     transform: rotate(-40deg);
     clip-path: polygon(0 0, 100% 0, 70% 100%, 10% 100%);
   }
-  .d31 {
+   .d31 {
     position: absolute;
     background-color: $pruple3;
     width: 7px;
@@ -335,7 +334,7 @@ $white: #ffffff;
     left: 337px;
     transform: rotate(-27deg);
   }
-  .d32 {
+   .d32 {
     position: absolute;
     background-color: $pruple3;
     width: 65px;
@@ -343,7 +342,7 @@ $white: #ffffff;
     top: 95px;
     left: 295px;
   }
-  .d33 {
+   .d33 {
     position: absolute;
     background-color: $pruple2;
     width: 15px;
@@ -353,7 +352,7 @@ $white: #ffffff;
     transform: rotate(-25deg);
     clip-path: polygon(0 0, 100% 0, 80% 100%, 40% 100%);
   }
-  .d34 {
+   .d34 {
     position: absolute;
     background-color: $pruple3;
     width: 25px;
@@ -363,7 +362,7 @@ $white: #ffffff;
     transform: rotate(-25deg);
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
   }
-  .d35 {
+   .d35 {
     position: absolute;
     background-color: $pruple3;
     width: 35px;
@@ -372,7 +371,7 @@ $white: #ffffff;
     left: 264px;
     transform: rotate(-35deg);
   }
-  .d36 {
+   .d36 {
     position: absolute;
     background-color: $pruple3;
     width: 22px;
@@ -382,7 +381,7 @@ $white: #ffffff;
     transform: rotate(-35deg);
     clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
   }
-  .d37 {
+   .d37 {
     position: absolute;
     background-color: $pruple3;
     width: 17px;
@@ -392,7 +391,7 @@ $white: #ffffff;
     transform: rotate(-35deg);
     clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
   }
-  .d38 {
+   .d38 {
     position: absolute;
     background-color: $pruple3;
     width: 12px;
@@ -401,7 +400,7 @@ $white: #ffffff;
     left: 264px;
     transform: rotate(-45deg);
   }
-  .d39 {
+   .d39 {
     position: absolute;
     background-color: $pruple3;
     width: 14px;
@@ -411,7 +410,7 @@ $white: #ffffff;
     clip-path: polygon(24% 0, 76% 0, 100% 100%, 0% 100%);
     transform: rotate(-45deg);
   }
-  .d40 {
+   .d40 {
     position: absolute;
     background-color: $pruple3;
     width: 10px;
@@ -420,7 +419,7 @@ $white: #ffffff;
     left: 238px;
     transform: rotate(-50deg);
   }
-  .d41 {
+   .d41 {
     position: absolute;
     background-color: $pruple3;
     width: 20px;
@@ -430,7 +429,7 @@ $white: #ffffff;
     transform: rotate(-40deg);
     clip-path: polygon(50% 0%, 22% 100%, 81% 100%);
   }
-  .d42 {
+   .d42 {
     position: absolute;
     background-color: $pruple3;
     width: 10px;
@@ -438,7 +437,7 @@ $white: #ffffff;
     top: 85px;
     left: 255px;
   }
-  .d43 {
+   .d43 {
     position: absolute;
     background-color: $pruple3;
     width: 60px;
@@ -448,7 +447,7 @@ $white: #ffffff;
     transform: rotate(-20deg);
     clip-path: polygon(60% 40%, 0 37%, 96% 94%);
   }
-  .d44 {
+   .d44 {
     position: absolute;
     background-color: $pruple3;
     width: 30px;
@@ -457,7 +456,7 @@ $white: #ffffff;
     left: 165px;
     transform: rotate(20deg);
   }
-  .d45 {
+   .d45 {
     position: absolute;
     background-color: $pruple2;
     width: 50px;
@@ -467,7 +466,7 @@ $white: #ffffff;
     transform: rotate(30deg);
     clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
   }
-  .d46 {
+   .d46 {
     position: absolute;
     background-color: $pruple2;
     width: 10px;
@@ -476,7 +475,7 @@ $white: #ffffff;
     left: 155px;
     transform: rotate(-60deg);
   }
-  .d47 {
+   .d47 {
     position: absolute;
     background-color: $pruple2;
     width: 8px;
@@ -485,7 +484,7 @@ $white: #ffffff;
     left: 175px;
     transform: rotate(-75deg);
   }
-  .d48 {
+   .d48 {
     position: absolute;
     background-color: $pruple2;
     width: 20px;
@@ -495,7 +494,7 @@ $white: #ffffff;
     transform: rotate(47deg);
     clip-path: polygon(50% 100%, 27% 0, 75% 0);
   }
-  .d49 {
+   .d49 {
     position: absolute;
     background-color: $pruple2;
     width: 17px;
@@ -506,7 +505,7 @@ $white: #ffffff;
     clip-path: polygon(25% 0%, 100% 0%, 65% 95%, 0% 100%);
     z-index: -9;
   }
-  .d50 {
+   .d50 {
     position: absolute;
     background-color: $yellow1;
     width: 30px;
@@ -517,7 +516,7 @@ $white: #ffffff;
     clip-path: polygon(50% 0%, 16% 100%, 81% 100%);
     z-index: -13;
   }
-  .d51 {
+   .d51 {
     position: absolute;
     background-color: $pruple2;
     width: 33px;
@@ -528,7 +527,7 @@ $white: #ffffff;
     clip-path: polygon(50% 100%, 27% 0, 75% 0);
     z-index: -8;
   }
-  .d52 {
+   .d52 {
     position: absolute;
     background-color: $yellow1;
     width: 13px;
@@ -539,8 +538,7 @@ $white: #ffffff;
     clip-path: polygon(0 0, 100% 47%, 100% 100%, 0 100%);
     z-index: -9;
   }
-
-  .d53 {
+   .d53 {
     position: absolute;
     background-color: $yellow1;
     width: 47px;
@@ -550,7 +548,7 @@ $white: #ffffff;
     transform: rotate(-5deg);
     z-index: -10;
   }
-  .d54 {
+   .d54 {
     position: absolute;
     background-color: $pruple2;
     width: 95px;
@@ -561,7 +559,7 @@ $white: #ffffff;
     clip-path: polygon(50% 100%, 27% 0, 75% 0);
     z-index: -9;
   }
-  .d55 {
+   .d55 {
     position: absolute;
     background-color: $pruple2;
     width: 24px;
@@ -571,7 +569,7 @@ $white: #ffffff;
     transform: rotate(-5deg);
     z-index: -10;
   }
-  .d56 {
+   .d56 {
     position: absolute;
     background-color: $yellow1;
     width: 45px;
@@ -582,7 +580,7 @@ $white: #ffffff;
     clip-path: polygon(50% 100%, 27% 0, 75% 0);
     z-index: -10;
   }
-  .d57 {
+   .d57 {
     position: absolute;
     background-color: $pruple2;
     width: 15px;
@@ -593,7 +591,7 @@ $white: #ffffff;
     clip-path: polygon(0 0, 0% 100%, 100% 100%);
     z-index: -10;
   }
-  .d58 {
+   .d58 {
     position: absolute;
     background-color: $yellow1;
     width: 18px;
@@ -604,7 +602,7 @@ $white: #ffffff;
     clip-path: polygon(0 0, 100% 0, 96% 100%, 4% 100%);
     z-index: -10;
   }
-  .d59 {
+   .d59 {
     position: absolute;
     background-color: $yellow1;
     width: 35px;
@@ -614,7 +612,7 @@ $white: #ffffff;
     transform: rotate(50deg);
     clip-path: polygon(50% 100%, 27% 0, 75% 0);
   }
-  .d60 {
+   .d60 {
     position: absolute;
     background-color: $yellow1;
     width: 20px;
@@ -623,7 +621,7 @@ $white: #ffffff;
     left: 390px;
     transform: rotate(-5deg);
   }
-  .d61 {
+   .d61 {
     position: absolute;
     background-color: $black;
     width: 25px;
@@ -632,7 +630,7 @@ $white: #ffffff;
     left: 400px;
     transform: rotate(25deg);
   }
-  .d62 {
+   .d62 {
     position: absolute;
     background-color: $yellow1;
     width: 20px;
@@ -642,7 +640,7 @@ $white: #ffffff;
     transform: rotate(10deg);
     z-index: -8;
   }
-  .d63 {
+   .d63 {
     position: absolute;
     background-color: $pruple2;
     width: 20px;
@@ -651,7 +649,7 @@ $white: #ffffff;
     left: 400px;
     z-index: -12;
   }
-  .d64 {
+   .d64 {
     position: absolute;
     background-color: $pruple2;
     width: 40px;
@@ -661,7 +659,7 @@ $white: #ffffff;
     transform: rotate(35deg);
     clip-path: polygon(50% 100%, 27% 0, 75% 0);
   }
-  .d65 {
+   .d65 {
     position: absolute;
     background-color: $blue2;
     width: 25px;
@@ -671,7 +669,7 @@ $white: #ffffff;
     transform: rotate(20deg);
     clip-path: polygon(50% 100%, 27% 0, 75% 0);
   }
-  .d66 {
+   .d66 {
     position: absolute;
     background-color: $blue2;
     width: 11px;
@@ -680,7 +678,7 @@ $white: #ffffff;
     left: 405px;
     transform: rotate(-2deg);
   }
-  .d67 {
+   .d67 {
     position: absolute;
     background-color: $blue2;
     width: 35px;
@@ -689,7 +687,7 @@ $white: #ffffff;
     left: 395px;
     clip-path: polygon(0 0, 79% 0, 80% 92%, 0% 100%);
   }
-  .d68 {
+   .d68 {
     position: absolute;
     background-color: $blue2;
     width: 10px;
@@ -698,7 +696,7 @@ $white: #ffffff;
     left: 418px;
     transform: rotate(-10deg);
   }
-  .d69 {
+   .d69 {
     position: absolute;
     background-color: $blue2;
     width: 10px;
@@ -707,7 +705,7 @@ $white: #ffffff;
     left: 395px;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
   }
-  .d70 {
+   .d70 {
     position: absolute;
     background-color: $blue2;
     width: 25px;
@@ -717,7 +715,7 @@ $white: #ffffff;
     transform: rotate(-1deg);
     clip-path: polygon(0 0, 0 100%, 36% 100%);
   }
-  .d71 {
+   .d71 {
     position: absolute;
     background-color: $pruple1;
     width: 30px;
@@ -727,7 +725,7 @@ $white: #ffffff;
     transform: rotate(25deg);
     clip-path: polygon(50% 100%, 27% 0, 75% 0);
   }
-  .d72 {
+   .d72 {
     position: absolute;
     background-color: $pruple1;
     width: 14px;
@@ -736,7 +734,7 @@ $white: #ffffff;
     left: 363px;
     transform: rotate(-5deg);
   }
-  .d73 {
+   .d73 {
     position: absolute;
     background-color: $pruple1;
     width: 8px;
@@ -745,7 +743,7 @@ $white: #ffffff;
     left: 365px;
     transform: rotate(-5deg);
   }
-  .d74 {
+   .d74 {
     position: absolute;
     background-color: $pruple1;
     width: 10px;
@@ -755,7 +753,7 @@ $white: #ffffff;
     transform: rotate(-15deg);
     clip-path: polygon(0 9%, 100% 0, 100% 100%, 23% 100%);
   }
-  .d75 {
+   .d75 {
     position: absolute;
     background-color: $white;
     width: 80px;
@@ -765,7 +763,7 @@ $white: #ffffff;
     transform: rotate(7deg);
     z-index: -20;
   }
-  .d76 {
+   .d76 {
     position: absolute;
     background-color: $white;
     width: 40px;
@@ -775,9 +773,9 @@ $white: #ffffff;
     transform: rotate(45deg);
     z-index: -20;
   }
-  .d77 {
+   .d77 {
     position: absolute;
-    background-color: $pruple8;
+    background-color: $pruple7;
     width: 100px;
     height: 100px;
     top: 465px;
@@ -785,9 +783,9 @@ $white: #ffffff;
     transform: rotate(-1deg);
     z-index: -19;
   }
-  .d78 {
+   .d78 {
     position: absolute;
-    background-color: $pruple8;
+    background-color: $pruple7;
     width: 20px;
     height: 20px;
     top: 556px;
@@ -795,7 +793,7 @@ $white: #ffffff;
     transform: rotate(35deg);
     z-index: -19;
   }
-  .d79 {
+   .d79 {
     position: absolute;
     background-color: $yellow6;
     width: 270px;
@@ -804,7 +802,7 @@ $white: #ffffff;
     left: 0px;
     z-index: -19;
   }
-  .d80 {
+   .d80 {
     position: absolute;
     background-color: $yellow6;
     width: 65px;
@@ -815,7 +813,7 @@ $white: #ffffff;
     transform: rotate(15deg);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   }
-  .d81 {
+   .d81 {
     position: absolute;
     background-color: $yellow6;
     width: 45px;
@@ -824,7 +822,7 @@ $white: #ffffff;
     left: 245px;
     transform: rotate(35deg);
   }
-  .d82 {
+   .d82 {
     position: absolute;
     background-color: $black;
     width: 115px;
@@ -832,15 +830,15 @@ $white: #ffffff;
     top: 415px;
     left: 0px;
   }
-  .d83 {
+   .d83 {
     position: absolute;
-    background-color: $pruple6;
+    background-color: $pruple5;
     width: 110px;
     height: 40px;
     top: 530px;
     left: 115px;
   }
-  .d84 {
+   .d84 {
     position: absolute;
     background-color: $yellow1;
     width: 175px;
@@ -848,7 +846,7 @@ $white: #ffffff;
     top: 570px;
     left: 0px;
   }
-  .d85 {
+   .d85 {
     position: absolute;
     background-color: $yellow1;
     width: 120px;
@@ -857,7 +855,7 @@ $white: #ffffff;
     left: -10px;
     transform: rotate(45deg);
   }
-  .d86 {
+   .d86 {
     position: absolute;
     background-color: $white;
     width: 120px;
@@ -866,16 +864,16 @@ $white: #ffffff;
     left: -70px;
     transform: rotate(52deg);
   }
-  .d87 {
+   .d87 {
     position: absolute;
-    background-color: $pruple4;
+    background-color:$pruple4;
     width: 120px;
     height: 130px;
     top: 565px;
     left: -95px;
     transform: rotate(58deg);
   }
-  .d88 {
+   .d88 {
     position: absolute;
     background-color: $black;
     width: 50px;
@@ -884,7 +882,7 @@ $white: #ffffff;
     left: 0px;
     transform: rotate(1deg);
   }
-  .d89 {
+   .d89 {
     position: absolute;
     background-color: $black;
     width: 45px;
@@ -894,7 +892,7 @@ $white: #ffffff;
     transform: rotate(135deg);
     clip-path: polygon(48% 0, 25% 100%, 75% 100%);
   }
-  .d90 {
+   .d90 {
     position: absolute;
     background-color: $black;
     width: 40px;
@@ -905,25 +903,24 @@ $white: #ffffff;
     clip-path: polygon(48% 0, 25% 100%, 75% 100%);
     z-index: 5;
   }
-  .d91 {
+   .d91 {
     position: absolute;
     background-color: $white;
     width: 12px;
     height: 41px;
     top: 520px;
     left: 0px;
-    
   }
-  .d92 {
+   .d92 {
     position: absolute;
-    background-color: $pruple4;
+    background-color:$pruple4;
     width: 15px;
     height: 40px;
     top: 520px;
     left: -8px;
     transform: rotate(25deg);
   }
-  .d93 {
+   .d93 {
     position: absolute;
     background-color: $black;
     width: 10px;
@@ -933,4 +930,432 @@ $white: #ffffff;
     transform: rotate(30deg);
     z-index: 5;
   }
+   .d94 {
+    position: absolute;
+    background-color: $pruple7;
+    width: 40px;
+    height: 45px;
+    top: 440px;
+    left: 285px;
+    transform: rotate(2deg);
+    z-index: 3;
+  }
+   .d95 {
+    position: absolute;
+    background-color: $pruple7;
+    width: 45px;
+    height: 20px;
+    top: 486px;
+    left: 279px;
+    transform: rotate(-48deg);
+  }
+   .d96 {
+    position: absolute;
+    background-color: $pruple5;
+    width: 130px;
+    height: 15px;
+    top: 510px;
+    left: 200px;
+    clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+    transform: rotate(-47deg);
+    z-index: 6;
+  }
+   .d97 {
+    position: absolute;
+    background-color: $pruple14;
+    width: 40px;
+    height: 90px;
+    top: 415px;
+    left: 280px;
+    transform: rotate(45deg);
+    z-index: 4;
+  }
+   .d98 {
+    position: absolute;
+    background-color: $pruple14;
+    width: 15px;
+    height: 45px;
+    top: 397px;
+    left: 329px;
+    transform: rotate(-5deg);
+    z-index: 4;
+  }
+   .d99 {
+    position: absolute;
+    background-color: $pruple14;
+    width: 15px;
+    height: 30px;
+    top: 395px;
+    left: 320px;
+    transform: rotate(15deg);
+    z-index: 4;
+  }
+   .d100 {
+    position: absolute;
+    background-color: $pruple2;
+    width: 7px;
+    height: 205px;
+    top: 240px;
+    left: 335px;
+    transform: rotate(-5deg);
+    z-index: 6;
+  }
+   .d101 {
+    position: absolute;
+    background-color: $blue1;
+    width: 50px;
+    height: 100px;
+    top: 300px;
+    left: 285px;
+    transform: rotate(-5deg);
+    z-index: 3;
+  }
+   .d102 {
+    position: absolute;
+    background-color: $blue1;
+    width: 70px;
+    height: 65px;
+    top: 366px;
+    left: 259px;
+    transform: rotate(55deg);
+    z-index: 3;
+  }
+   .d103 {
+    position: absolute;
+    background-color: $pruple6;
+    width: 70px;
+    height: 35px;
+    top: 462px;
+    left: 234px;
+    transform: rotate(-36deg);
+    z-index: 5;
+  }
+   .d104 {
+    position: absolute;
+    background-color: $pruple6;
+    width: 115px;
+    height: 50px;
+    top: 490px;
+    left: 140px;
+    z-index: 5;
+  }
+   .d105 {
+    position: absolute;
+    background-color: $pruple6;
+    width: 45px;
+    height: 45px;
+    top: 508px;
+    left: 195px;
+    transform: rotate(-60deg);
+    z-index: 5;
+  }
+   .d106 {
+    position: absolute;
+    background-color: $pruple5;
+    width: 40px;
+    height: 45px;
+    top: 461px;
+    left: 254px;
+    transform: rotate(175deg);
+    clip-path: polygon(50% 100%, 27% 0, 75% 0);
+    z-index: 7;
+  }
+   .d107 {
+    position: absolute;
+    background-color: $pruple5;
+    width: 150px;
+    height: 150px;
+    top: 345px;
+    left: -113px;
+    transform: rotate(65deg);
+    z-index: -5;
+  }
+   .d108 {
+    position: absolute;
+    background-color: $red1;
+    width: 40px;
+    height: 143px;
+    top: 400px;
+    left: 70px;
+    transform: rotate(-25deg);
+  }
+   .d109 {
+    position: absolute;
+    background-color: $red1;
+    width: 30px;
+    height: 50px;
+    top: 514px;
+    left: 116px;
+    transform: rotate(-71deg);
+  }
+   .d110 {
+    position: absolute;
+    background-color: $yellow1;
+    width: 40px;
+    height: 85px;
+    top: 495px;
+    left: 170px;
+    transform: rotate(83deg);
+    overflow: hidden;
+    .d111 {
+     position: absolute;
+     background-color: $red1;
+     width: 20px;
+     height: 20px;
+     top: 70px;
+     left: 23px;
+     transform: rotate(7deg);
+   }
+  }
+   .d112 {
+    position: absolute;
+    background-color: $yellow1;
+    width: 28px;
+    height: 50px;
+    top: 490px;
+    left: 160px;
+    z-index: 10;
+  }
+   .d113 {
+    position: absolute;
+    background-color: $pruple6;
+    width: 45px;
+    height: 30px;
+    top: 483px;
+    left: 125px;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    z-index: 5;
+  }
+   .d114 {
+    position: absolute;
+    background-color: $yellow1;
+    width: 35px;
+    height: 50px;
+    top: 495px;
+    left: 127px;
+    z-index: 3;
+  }
+   .d115 {
+    position: absolute;
+    background-color: $yellow1;
+    width: 40px;
+    height: 70px;
+    top: 470px;
+    left: 110px;
+    z-index: 3;
+    transform: rotate(-25deg);
+  }
+   .d116 {
+    position: absolute;
+    background-color: $yellow1;
+    width: 40px;
+    height: 60px;
+    top: 430px;
+    left: 80px;
+    z-index: 3;
+    transform: rotate(-33deg);
+  }
+   .d117 {
+    position: absolute;
+    background-color: $red1;
+    width: 10px;
+    height: 20px;
+    top: 478px;
+    left: 100px;
+    z-index: 3;
+    transform: rotate(55deg);
+  }
+   .d118 {
+    position: absolute;
+    background-color: $pruple5;
+    width: 50px;
+    height: 50px;
+    top: 440px;
+    left: 139px;
+    z-index: 4;
+  }
+   .d119 {
+    position: absolute;
+    background-color: $blue2;
+    width: 70px;
+    height: 70px;
+    top: 390px;
+    left: 230px;
+    transform: rotate(-40deg);
+    z-index: 2;
+  }
+   .d120 {
+    position: absolute;
+    background-color: $pruple6;
+    width: 25px;
+    height: 25px;
+    top: 495px;
+    left: 245px;
+    z-index: 5;
+  }
+   .d121 {
+    position: absolute;
+    background-color: $yellow1;
+    width: 55px;
+    height: 55px;
+    top: 435px;
+    left: 189px;
+    z-index: -2;
+  }
+   .d122 {
+    position: absolute;
+    background-color: $yellow4;
+    width: 70px;
+    height: 10px;
+    top: 480px;
+    left: 155px;
+    z-index: 10;
+  }
+   .d123 {
+    position: absolute;
+    background-color: $yellow4;
+    width: 60px;
+    height: 10px;
+    top: 490px;
+    left: 155px;
+    z-index: 10;
+    transform: rotate(20deg);
+  }
+   .d124 {
+    position: absolute;
+    background-color: $yellow4;
+    width: 70px;
+    height: 10px;
+    top: 478px;
+    left: 201px;
+    z-index: 10;
+    transform: rotate(-40deg);
+  }
+   .d125 {
+    position: absolute;
+    background-color: $yellow4;
+    width: 35px;
+    height: 20px;
+    top: 480px;
+    left: 185px;
+    z-index: 10;
+  }
+   .d126 {
+    position: absolute;
+    background-color: $yellow4;
+    width: 20px;
+    height: 60px;
+    top: 430px;
+    left: 210px;
+    z-index: 10;
+    transform: rotate(-15deg);
+  }
+   .d127 {
+    position: absolute;
+    background-color: $yellow4;
+    width: 35px;
+    height: 50px;
+    top: 429px;
+    left: 218px;
+    z-index: 10;
+    transform: rotate(-40deg);
+  }
+   .d128 {
+    position: absolute;
+    background-color: $pruple5;
+    width: 25px;
+    height: 50px;
+    top: 440px;
+    left: 125px;
+    z-index: 4;
+    transform: rotate(-45deg);
+  }
+   .d129 {
+    position: absolute;
+    background-color: $pruple5;
+    width: 60px;
+    height: 20px;
+    top: 436px;
+    left: 111px;
+    z-index: 4;
+  }
+   .d130 {
+    position: absolute;
+    background-color: $yellow1;
+    width: 50px;
+    height: 150px;
+    top: 270px;
+    left: -3px;
+    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
+    z-index: -6;
+  }
+   .d131 {
+    position: absolute;
+    background-color: $yellow1;
+    width: 25px;
+    height: 30px;
+    top: 388px;
+    left: 33px;
+    z-index: -6;
+    transform: rotate(-37deg);
+  }
+   .d132 {
+    position: absolute;
+    background-color: $red1;
+    width: 40px;
+    height: 20px;
+    top: 401px;
+    left: 44px;
+    z-index: 1;
+    transform: rotate(-37deg);
+  }
+   .d133 {
+    position: absolute;
+    background-color: $red3;
+    width: 60px;
+    height: 70px;
+    top: 365px;
+    left: 112px;
+    z-index: 2;
+  }
+   .d134 {
+    position: absolute;
+    background-color: $red3;
+    width: 65px;
+    height: 50px;
+    top: 377px;
+    left: 68px;
+    z-index: 2;
+    transform: rotate(-37deg);
+  }
+   .d135 {
+    position: absolute;
+    background-color: $red1;
+    width: 15px;
+    height: 30px;
+    top: 404px;
+    left: 60px;
+    z-index: 4;
+    transform: rotate(63deg);
+  }
+   .d136 {
+    position: absolute;
+    background-color: $red1;
+    width: 25px;
+    height: 60px;
+    top: 396px;
+    left: 90px;
+    z-index: 2;
+    transform: rotate(-74deg);
+  }
+   .d137 {
+    position: absolute;
+    background-color: $red1;
+    width: 25px;
+    height: 60px;
+    top: 396px;
+    left: 90px;
+    z-index: 2;
+    transform: rotate(-74deg);
+  }  
 }
