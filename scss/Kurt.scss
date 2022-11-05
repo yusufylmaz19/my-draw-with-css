@@ -1,138 +1,192 @@
-$pruple1: #d15fbc;
-$pruple2: #4b3d78;
-$pruple3: #fdb4cf;
-$pruple4: #8a34bd;
-$pruple5: #97246f;
-$pruple6: #f58ab8;
-$pruple7: #b392c7;
-$pruple8: #d25fbc;
-$pruple9: #d98cde;
-$pruple10: #ff8ab4;
-$pruple12: #f975be;
-$pruple12: #b093c5;
-$pruple13: #a4a2d1;
-$pruple14: #d0b5e8;
-$blue1: #b7eeeb;
-$blue2: #7caff0;
-$red1: #c6242f;
-$red2: #f42e3f;
-$red3: #e75c47;
-$red4: #932929;
-$red5: #feb992;
-$red6: #922929;
-$yellow1: #d07107;
-$yellow2: #ffe037;
-$yellow3:#ffd403;
-$yellow4:#f5cb77;
-$yellow5: #f9e91a;
-$yellow6:#ffa574;
-$black: #000000;
-$white: #ffffff;
+$p1: #d15fbc;
+$p2: #4b3d78;
+$p3: #fdb4cf;
+$p4: #8a34bd;
+$p5: #97246f;
+$p6: #f58ab8;
+$p7: #b392c7;
+$p8: #d25fbc;
+$p9: #d98cde;
+$p10: #f975be;
+$p11: #a4a2d1;
+$p12: #d0b5e8;
+$p13: #b392c6;
+$p14: #b293c6;
+$b1: #b7eeeb;
+$b2: #7caff0;
+$r1: #c6242f;
+$r2: #f42e3f;
+$r3: #e75c47;
+$r4: #932929;
+$r5: #fc9f80;
+$y1: #d07107;
+$y2: #ffe037;
+$y3: #ffd403;
+$y4: #f5cb77;
+$y5: #f9e91a;
+$y6: #ffa574;
+$y7: #feb991;
+$bl1: #000000;
+$bl2: #070808;
+$w: #ffffff;
+$c1: polygon(24% 0, 72% 0, 100% 100%, 0% 100%);
+$c2: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+$c3: polygon(50% 0%, 9% 100%, 66% 79%);
+$c4: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+$c5: polygon(5% 0, 97% 0, 100% 95%, 0% 100%);
+$c6: polygon(61% 0, 0% 100%, 100% 0);
+$c7: polygon(65% 0, 0% 100%, 100% 0);
+$c8: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+$c9: polygon(70% 30%, 0% 100%, 100% 60%);
+$c10: polygon(0 0, 100% 0, 80% 100%, 21% 100%);
+$c11: polygon(0 0, 0 96%, 58% 100%);
+$c12: polygon(0 0, 100% 0, 70% 100%, 10% 100%);
+$c13: polygon(0 0, 100% 0, 80% 100%, 40% 100%);
+$c14: polygon(24% 0, 76% 0, 100% 100%, 0% 100%);
+$c15: polygon(50% 0%, 22% 100%, 81% 100%);
+$c16: polygon(60% 40%, 0 37%, 96% 94%);
+$c17: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+$c18: polygon(50% 100%, 27% 0, 75% 0);
+$c19: polygon(25% 0%, 100% 0%, 65% 95%, 0% 100%);
+$c20: polygon(50% 0%, 16% 100%, 81% 100%);
+$c21: polygon(0 0, 100% 47%, 100% 100%, 0 100%);
+$c22: polygon(0 0, 0% 100%, 100% 100%);
+$c23: polygon(0 0, 100% 0, 96% 100%, 4% 100%);
+$c24: polygon(0 0, 79% 0, 80% 92%, 0% 100%);
+$c25: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+$c26: polygon(0 0, 0 100%, 36% 100%);
+$c27: polygon(0 9%, 100% 0, 100% 100%, 23% 100%);
+$c28: polygon(50% 0%, 0% 100%, 100% 100%);
+$c29: polygon(48% 0, 25% 100%, 75% 100%);
+$c30: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+$c31: polygon(50% 100%, 0 0, 100% 0);
+$c32: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
+$c33: polygon(34% 0, 57% 0, 65% 100%, 23% 100%);
+$c34: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+$c35: polygon(30% 0%, 100% 0, 100% 100%, 0% 100%);
+$c36: polygon(71% 15%, 75% 67%, 28% 85%, 21% 36%);
+$c37: polygon(48% 18%, 0% 100%, 100% 100%);
+$c38: polygon(0 34%, 0% 100%, 100% 100%);
+$c39: polygon(0 45%, 0% 100%, 100% 100%);
+$c40: polygon(25% 0%, 76% 0, 75% 100%, 25% 79%);
+$c41: polygon(0 31%, 83% 31%, 83% 98%, 0 65%);
+$c42: polygon(100% 0, 100% 100%, 0 50%);
+$c43: polygon(17% 28%, 83% 21%, 100% 100%, 0% 100%);
+$c44: polygon(0 59%, 83% 21%, 100% 100%, 0% 100%);
+$c45: polygon(20% 30%, 80% 30%, 100% 93%, 0% 100%);
+$c46: polygon(50% 0%, 100% 29%, 88% 100%, 10% 100%, 0 29%);
+$c47: polygon(0 0, 27% 0, 72% 100%, 0% 100%);
+$c48: polygon(0 0, 0% 100%, 61% 0);
+$c49: polygon(0 0, 100% 0, 100% 100%, 0 84%);
+$c50: polygon(0 0, 100% 0, 100% 100%, 4% 100%);
+$c51: polygon(44% 0, 100% 0%, 58% 100%, 0% 100%);
+$c52: polygon(100% 1%, 0 53%, 100% 100%);
+$c53: polygon(20% 0%, 65% 0, 100% 100%, 0% 100%);
 
- .container {
+.container {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: $black;
+  background-color: $bl1;
   width: 420px;
   height: 640px;
   overflow: hidden;
 
-   .d1 {
+  .d1 {
     position: absolute;
     width: 100%;
     height: 490px;
-    background-color: $pruple2;
+    background-color: $p2;
     z-index: -12;
   }
-   .d2 {
+  .d2 {
     position: absolute;
     width: 50px;
     height: 60px;
-    background-color: $pruple1;
+    background-color: $p1;
     z-index: -9;
     transform: rotate(35deg);
     top: -35px;
     left: -30px;
   }
-   .d3 {
+  .d3 {
     position: absolute;
     width: 30px;
     height: 60px;
-    background-color: $pruple1;
+    background-color: $p1;
     z-index: -9;
     transform: rotate(55deg);
     top: -35px;
     left: 20px;
   }
-   .d4 {
+  .d4 {
     position: absolute;
     width: 12px;
     height: 60px;
-    background-color: $pruple1;
+    background-color: $p1;
     z-index: -9;
-    clip-path: polygon(24% 0, 72% 0, 100% 100%, 0% 100%);
+    clip-path: $c1;
     transform: rotate(-160deg);
     top: 10px;
     left: 2px;
   }
-   .d5 {
+  .d5 {
     position: absolute;
-    width: 100px;
+    width: 95px;
     height: 140px;
-    background-color: $yellow1;
+    background-color: $y1;
     z-index: -11;
     top: 50px;
   }
-   .d6 {
+  .d6 {
     position: absolute;
     width: 15px;
-    height: 95px;
-    background-color: $pruple2;
-    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    height: 100px;
+    background-color: $p2;
+    clip-path: $c2;
     z-index: -10;
-    top: 50px;
+    top: 40px;
   }
-   .d7 {
+  .d7 {
     position: absolute;
-    width: 85px;
+    width: 75px;
     height: 150px;
-    background-color: $yellow1;
-    transform: rotate(45deg);
+    background-color: $y1;
+    transform: rotate(52deg);
     z-index: -11;
-    top: -45px;
+    top: -40px;
     left: 52px;
   }
-   .d8 {
+  .d8 {
     position: absolute;
-    background-color: $yellow2;
+    background-color: $y2;
     width: 240px;
     height: 60px;
     top: 160px;
-    left: 60px;
+    left: 65px;
     z-index: -11;
   }
-   .d9 {
+  .d9 {
     position: absolute;
-    background-color: $yellow2;
-    width: 200px;
+    background-color: $y2;
+    width: 215px;
     height: 180px;
     top: 30px;
-    left: 100px;
+    left: 90px;
     z-index: -12;
   }
-   .d10 {
+  .d10 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 200px;
     height: 20px;
     left: 140px;
     z-index: -11;
   }
-   .d11 {
+  .d11 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 65px;
     height: 230px;
     left: 217px;
@@ -140,18 +194,18 @@ $white: #ffffff;
     transform: rotate(-50deg);
     z-index: -11;
   }
-   .d12 {
+  .d12 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 60px;
     height: 60px;
     left: 250px;
     top: 25px;
     z-index: -11;
   }
-   .d13 {
+  .d13 {
     position: absolute;
-    background-color: $black;
+    background-color: $bl1;
     width: 60px;
     height: 90px;
     left: 400px;
@@ -159,9 +213,9 @@ $white: #ffffff;
     transform: rotate(-35deg);
     z-index: -11;
   }
-   .d14 {
+  .d14 {
     position: absolute;
-    background-color: $yellow3;
+    background-color: $y3;
     width: 60px;
     height: 200px;
     left: 355px;
@@ -169,378 +223,378 @@ $white: #ffffff;
     transform: rotate(-35deg);
     z-index: -11;
   }
-   .d15 {
+  .d15 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 20px;
     height: 120px;
     transform: rotate(-40deg);
     top: -22px;
     left: 320px;
   }
-   .d16 {
+  .d16 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 50px;
     height: 130px;
     transform: rotate(-21deg);
     top: 81px;
     left: 351px;
   }
-   .d17 {
+  .d17 {
     position: absolute;
-    background-color: $yellow3;
+    background-color: $y3;
     width: 50px;
     height: 60px;
     top: 115px;
     left: 380px;
     z-index: -9;
   }
-   .d18 {
+  .d18 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 28px;
     height: 70px;
     top: 55px;
     left: 384px;
-    clip-path: polygon(50% 0%, 9% 100%, 66% 79%);
+    clip-path: $c3;
     transform: rotate(-30deg);
   }
-   .d19 {
+  .d19 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 20px;
     height: 90px;
     top: 105px;
     left: 400px;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: $c4;
     transform: rotate(-5deg);
   }
-   .d20 {
+  .d20 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 13px;
     height: 140px;
     top: -25px;
     left: 313px;
     transform: rotate(-35deg);
   }
-   .d21 {
+  .d21 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 25px;
     height: 80px;
     top: 59px;
     left: 332px;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: $c4;
     transform: rotate(-20deg);
   }
-   .d22 {
+  .d22 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 13px;
     height: 110px;
     top: 96px;
     left: 370.5px;
-    clip-path: polygon(5% 0, 97% 0, 100% 95%, 0% 100%);
+    clip-path: $c5;
     transform: rotate(-20deg);
   }
-   .d23 {
+  .d23 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 15px;
     height: 50px;
     top: 55px;
     left: 342px;
-    clip-path: polygon(61% 0, 0% 100%, 100% 0);
+    clip-path: $c6;
     transform: rotate(-30deg);
   }
-   .d24 {
+  .d24 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 25px;
     height: 80px;
     top: 225px;
     left: 369px;
-    clip-path: polygon(65% 0, 0% 100%, 100% 0);
+    clip-path: $c7;
     transform: rotate(-8deg);
   }
-   .d25 {
+  .d25 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 15px;
     height: 100px;
     top: 130px;
     left: 360px;
     transform: rotate(-20deg);
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+    clip-path: $c8;
   }
-   .d26 {
+  .d26 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 15px;
     height: 70px;
     top: 170px;
     left: 349px;
     transform: rotate(-25deg);
-    clip-path: polygon(70% 30%, 0% 100%, 100% 60%);
+    clip-path: $c9;
   }
-   .d27 {
+  .d27 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 12px;
     height: 80px;
     top: 130px;
     left: 345px;
     transform: rotate(-17deg);
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 21% 100%);
+    clip-path: $c10;
   }
-   .d28 {
+  .d28 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 20px;
     height: 40px;
     top: 240px;
-    left: 330px;
-    transform: rotate(-160deg);
-    clip-path: polygon(0 0, 0 96%, 58% 100%);
+    left: 331px;
+    transform: rotate(-165deg);
+    clip-path: $c11;
   }
-   .d29 {
+  .d29 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 15px;
     height: 110px;
     top: 140px;
     left: 325px;
     transform: rotate(-20deg);
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+    clip-path: $c8;
   }
-   .d30 {
+  .d30 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 25px;
     height: 50px;
     top: 101px;
     left: 289px;
     transform: rotate(-40deg);
-    clip-path: polygon(0 0, 100% 0, 70% 100%, 10% 100%);
+    clip-path: $c12;
   }
-   .d31 {
+  .d31 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 7px;
     height: 60px;
     top: 125px;
     left: 337px;
     transform: rotate(-27deg);
   }
-   .d32 {
+  .d32 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 65px;
     height: 40px;
     top: 95px;
     left: 295px;
   }
-   .d33 {
+  .d33 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 15px;
     height: 60px;
     top: 115px;
     left: 318px;
     transform: rotate(-25deg);
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 40% 100%);
+    clip-path: $c13;
   }
-   .d34 {
+  .d34 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 25px;
     height: 45px;
     top: 60px;
     left: 300px;
     transform: rotate(-25deg);
-    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: $c4;
   }
-   .d35 {
+  .d35 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 35px;
     height: 55px;
     top: 58px;
     left: 264px;
     transform: rotate(-35deg);
   }
-   .d36 {
+  .d36 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 22px;
     height: 55px;
     top: 17px;
     left: 280px;
     transform: rotate(-35deg);
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+    clip-path: $c8;
   }
-   .d37 {
+  .d37 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 17px;
     height: 55px;
     top: -10px;
     left: 258px;
     transform: rotate(-35deg);
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+    clip-path: $c8;
   }
-   .d38 {
+  .d38 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 12px;
     height: 30px;
     top: -5px;
     left: 264px;
     transform: rotate(-45deg);
   }
-   .d39 {
+  .d39 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 14px;
     height: 100px;
     top: -25px;
     left: 235px;
-    clip-path: polygon(24% 0, 76% 0, 100% 100%, 0% 100%);
+    clip-path: $c14;
     transform: rotate(-45deg);
   }
-   .d40 {
+  .d40 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 10px;
     height: 100px;
     top: 31px;
     left: 238px;
     transform: rotate(-50deg);
   }
-   .d41 {
+  .d41 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 20px;
     height: 100px;
     top: -15px;
     left: 217px;
     transform: rotate(-40deg);
-    clip-path: polygon(50% 0%, 22% 100%, 81% 100%);
+    clip-path: $c15;
   }
-   .d42 {
+  .d42 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 10px;
     height: 10px;
     top: 85px;
     left: 255px;
   }
-   .d43 {
+  .d43 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 60px;
     height: 120px;
     top: -25px;
     left: 165px;
     transform: rotate(-20deg);
-    clip-path: polygon(60% 40%, 0 37%, 96% 94%);
+    clip-path: $c16;
   }
-   .d44 {
+  .d44 {
     position: absolute;
-    background-color: $pruple3;
+    background-color: $p3;
     width: 30px;
     height: 15px;
     top: 16px;
     left: 165px;
     transform: rotate(20deg);
   }
-   .d45 {
+  .d45 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 50px;
     height: 15px;
     top: 16px;
     left: 150px;
     transform: rotate(30deg);
-    clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+    clip-path: $c17;
   }
-   .d46 {
+  .d46 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 10px;
     height: 30px;
     top: 10px;
     left: 155px;
     transform: rotate(-60deg);
   }
-   .d47 {
+  .d47 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 8px;
     height: 25px;
     top: 21px;
     left: 175px;
     transform: rotate(-75deg);
   }
-   .d48 {
+  .d48 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 20px;
     height: 40px;
     top: 480px;
     left: 305px;
     transform: rotate(47deg);
-    clip-path: polygon(50% 100%, 27% 0, 75% 0);
+    clip-path: $c18;
   }
-   .d49 {
+  .d49 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 17px;
     height: 43px;
     top: 475px;
     left: 328px;
     transform: rotate(25deg);
-    clip-path: polygon(25% 0%, 100% 0%, 65% 95%, 0% 100%);
+    clip-path: $c19;
     z-index: -9;
   }
-   .d50 {
+  .d50 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 30px;
     height: 40px;
     top: 495px;
     left: 320px;
     transform: rotate(220deg);
-    clip-path: polygon(50% 0%, 16% 100%, 81% 100%);
+    clip-path: $c20;
     z-index: -13;
   }
-   .d51 {
+  .d51 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 33px;
     height: 70px;
     top: 485px;
     left: 325px;
     transform: rotate(48deg);
-    clip-path: polygon(50% 100%, 27% 0, 75% 0);
+    clip-path: $c18;
     z-index: -8;
   }
-   .d52 {
+  .d52 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 13px;
     height: 30px;
     top: 478px;
     left: 346px;
     transform: rotate(32deg);
-    clip-path: polygon(0 0, 100% 47%, 100% 100%, 0 100%);
+    clip-path: $c21;
     z-index: -9;
   }
-   .d53 {
+  .d53 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 47px;
     height: 100px;
     top: 440px;
@@ -548,20 +602,20 @@ $white: #ffffff;
     transform: rotate(-5deg);
     z-index: -10;
   }
-   .d54 {
+  .d54 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 95px;
     height: 180px;
     top: 370px;
     left: 330px;
     transform: rotate(15deg);
-    clip-path: polygon(50% 100%, 27% 0, 75% 0);
+    clip-path: $c18;
     z-index: -9;
   }
-   .d55 {
+  .d55 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 24px;
     height: 55px;
     top: 440px;
@@ -569,70 +623,70 @@ $white: #ffffff;
     transform: rotate(-5deg);
     z-index: -10;
   }
-   .d56 {
+  .d56 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 45px;
     height: 70px;
     top: 515px;
     left: 333px;
     transform: rotate(25deg);
-    clip-path: polygon(50% 100%, 27% 0, 75% 0);
+    clip-path: $c18;
     z-index: -10;
   }
-   .d57 {
+  .d57 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 15px;
     height: 15px;
     top: 533px;
     left: 355px;
     transform: rotate(10deg);
-    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    clip-path: $c22;
     z-index: -10;
   }
-   .d58 {
+  .d58 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 18px;
     height: 47px;
     top: 535px;
     left: 369px;
     transform: rotate(10deg);
-    clip-path: polygon(0 0, 100% 0, 96% 100%, 4% 100%);
+    clip-path: $c23;
     z-index: -10;
   }
-   .d59 {
+  .d59 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 35px;
     height: 35px;
     top: 570px;
     left: 345px;
     transform: rotate(50deg);
-    clip-path: polygon(50% 100%, 27% 0, 75% 0);
+    clip-path: $c18;
   }
-   .d60 {
+  .d60 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 20px;
     height: 50px;
     top: 530px;
     left: 390px;
     transform: rotate(-5deg);
   }
-   .d61 {
+  .d61 {
     position: absolute;
-    background-color: $black;
+    background-color: $bl1;
     width: 25px;
     height: 100px;
     top: 530px;
     left: 400px;
     transform: rotate(25deg);
   }
-   .d62 {
+  .d62 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 20px;
     height: 40px;
     top: 570px;
@@ -640,122 +694,122 @@ $white: #ffffff;
     transform: rotate(10deg);
     z-index: -8;
   }
-   .d63 {
+  .d63 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 20px;
     height: 80px;
     top: 450px;
     left: 400px;
     z-index: -12;
   }
-   .d64 {
+  .d64 {
     position: absolute;
-    background-color: $pruple2;
+    background-color: $p2;
     width: 40px;
     height: 60px;
     top: 517px;
     left: 383px;
     transform: rotate(35deg);
-    clip-path: polygon(50% 100%, 27% 0, 75% 0);
+    clip-path: $c18;
   }
-   .d65 {
+  .d65 {
     position: absolute;
-    background-color: $blue2;
+    background-color: $b2;
     width: 25px;
     height: 50px;
     top: 502px;
     left: 391px;
     transform: rotate(20deg);
-    clip-path: polygon(50% 100%, 27% 0, 75% 0);
+    clip-path: $c18;
   }
-   .d66 {
+  .d66 {
     position: absolute;
-    background-color: $blue2;
+    background-color: $b2;
     width: 11px;
     height: 70px;
     top: 436px;
     left: 405px;
     transform: rotate(-2deg);
   }
-   .d67 {
+  .d67 {
     position: absolute;
-    background-color: $blue2;
+    background-color: $b2;
     width: 35px;
     height: 50px;
     top: 402px;
     left: 395px;
-    clip-path: polygon(0 0, 79% 0, 80% 92%, 0% 100%);
+    clip-path: $c24;
   }
-   .d68 {
+  .d68 {
     position: absolute;
-    background-color: $blue2;
+    background-color: $b2;
     width: 10px;
     height: 40px;
     top: 441px;
     left: 418px;
     transform: rotate(-10deg);
   }
-   .d69 {
+  .d69 {
     position: absolute;
-    background-color: $blue2;
+    background-color: $b2;
     width: 10px;
     height: 80px;
     top: 325px;
     left: 395px;
-    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+    clip-path: $c25;
   }
-   .d70 {
+  .d70 {
     position: absolute;
-    background-color: $blue2;
+    background-color: $b2;
     width: 25px;
     height: 100px;
     top: 302px;
     left: 413px;
     transform: rotate(-1deg);
-    clip-path: polygon(0 0, 0 100%, 36% 100%);
+    clip-path: $c26;
   }
-   .d71 {
+  .d71 {
     position: absolute;
-    background-color: $pruple1;
+    background-color: $p1;
     width: 30px;
     height: 80px;
     top: 420px;
     left: 340px;
     transform: rotate(25deg);
-    clip-path: polygon(50% 100%, 27% 0, 75% 0);
+    clip-path: $c18;
   }
-   .d72 {
+  .d72 {
     position: absolute;
-    background-color: $pruple1;
+    background-color: $p1;
     width: 14px;
     height: 50px;
     top: 377px;
     left: 363px;
     transform: rotate(-5deg);
   }
-   .d73 {
+  .d73 {
     position: absolute;
-    background-color: $pruple1;
+    background-color: $p1;
     width: 8px;
     height: 30px;
     top: 347px;
     left: 365px;
     transform: rotate(-5deg);
   }
-   .d74 {
+  .d74 {
     position: absolute;
-    background-color: $pruple1;
+    background-color: $p1;
     width: 10px;
     height: 40px;
     top: 310px;
     left: 357px;
     transform: rotate(-15deg);
-    clip-path: polygon(0 9%, 100% 0, 100% 100%, 23% 100%);
+    clip-path: $c27;
   }
-   .d75 {
+  .d75 {
     position: absolute;
-    background-color: $white;
+    background-color: $w;
     width: 80px;
     height: 100px;
     top: 548px;
@@ -763,9 +817,9 @@ $white: #ffffff;
     transform: rotate(7deg);
     z-index: -20;
   }
-   .d76 {
+  .d76 {
     position: absolute;
-    background-color: $white;
+    background-color: $w;
     width: 40px;
     height: 40px;
     top: 533px;
@@ -773,9 +827,9 @@ $white: #ffffff;
     transform: rotate(45deg);
     z-index: -20;
   }
-   .d77 {
+  .d77 {
     position: absolute;
-    background-color: $pruple7;
+    background-color: $p7;
     width: 100px;
     height: 100px;
     top: 465px;
@@ -783,9 +837,9 @@ $white: #ffffff;
     transform: rotate(-1deg);
     z-index: -19;
   }
-   .d78 {
+  .d78 {
     position: absolute;
-    background-color: $pruple7;
+    background-color: $p7;
     width: 20px;
     height: 20px;
     top: 556px;
@@ -793,136 +847,136 @@ $white: #ffffff;
     transform: rotate(35deg);
     z-index: -19;
   }
-   .d79 {
+  .d79 {
     position: absolute;
-    background-color: $yellow6;
+    background-color: $y6;
     width: 270px;
     height: 95px;
     top: 558px;
     left: 0px;
     z-index: -19;
   }
-   .d80 {
+  .d80 {
     position: absolute;
-    background-color: $yellow6;
+    background-color: $y6;
     width: 65px;
     height: 45px;
     top: 527px;
     left: 255px;
     z-index: -19;
     transform: rotate(15deg);
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: $c28;
   }
-   .d81 {
+  .d81 {
     position: absolute;
-    background-color: $yellow6;
+    background-color: $y6;
     width: 45px;
     height: 90px;
     top: 559px;
     left: 245px;
     transform: rotate(35deg);
   }
-   .d82 {
+  .d82 {
     position: absolute;
-    background-color: $black;
+    background-color: $bl1;
     width: 115px;
     height: 155px;
     top: 415px;
     left: 0px;
   }
-   .d83 {
+  .d83 {
     position: absolute;
-    background-color: $pruple5;
+    background-color: $p5;
     width: 110px;
     height: 40px;
     top: 530px;
     left: 115px;
   }
-   .d84 {
+  .d84 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 175px;
     height: 47px;
     top: 570px;
     left: 0px;
   }
-   .d85 {
+  .d85 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 120px;
     height: 100px;
     top: 530px;
     left: -10px;
     transform: rotate(45deg);
   }
-   .d86 {
+  .d86 {
     position: absolute;
-    background-color: $white;
+    background-color: $w;
     width: 120px;
     height: 120px;
     top: 570px;
     left: -70px;
     transform: rotate(52deg);
   }
-   .d87 {
+  .d87 {
     position: absolute;
-    background-color:$pruple4;
+    background-color: $p4;
     width: 120px;
     height: 130px;
     top: 565px;
     left: -95px;
     transform: rotate(58deg);
   }
-   .d88 {
+  .d88 {
     position: absolute;
-    background-color: $black;
+    background-color: $bl1;
     width: 50px;
     height: 27px;
     top: 500px;
     left: 0px;
     transform: rotate(1deg);
   }
-   .d89 {
+  .d89 {
     position: absolute;
-    background-color: $black;
+    background-color: $bl1;
     width: 45px;
     height: 70px;
     top: 508px;
     left: 31px;
     transform: rotate(135deg);
-    clip-path: polygon(48% 0, 25% 100%, 75% 100%);
+    clip-path: $c29;
   }
-   .d90 {
+  .d90 {
     position: absolute;
-    background-color: $black;
+    background-color: $bl1;
     width: 40px;
     height: 50px;
     top: 508px;
     left: -5px;
     transform: rotate(170deg);
-    clip-path: polygon(48% 0, 25% 100%, 75% 100%);
+    clip-path: $c29;
     z-index: 5;
   }
-   .d91 {
+  .d91 {
     position: absolute;
-    background-color: $white;
+    background-color: $w;
     width: 12px;
     height: 41px;
     top: 520px;
     left: 0px;
   }
-   .d92 {
+  .d92 {
     position: absolute;
-    background-color:$pruple4;
+    background-color: $p4;
     width: 15px;
     height: 40px;
     top: 520px;
     left: -8px;
     transform: rotate(25deg);
   }
-   .d93 {
+  .d93 {
     position: absolute;
-    background-color: $black;
+    background-color: $bl1;
     width: 10px;
     height: 30px;
     top: 508px;
@@ -930,9 +984,9 @@ $white: #ffffff;
     transform: rotate(30deg);
     z-index: 5;
   }
-   .d94 {
+  .d94 {
     position: absolute;
-    background-color: $pruple7;
+    background-color: $p7;
     width: 40px;
     height: 45px;
     top: 440px;
@@ -940,89 +994,89 @@ $white: #ffffff;
     transform: rotate(2deg);
     z-index: 3;
   }
-   .d95 {
+  .d95 {
     position: absolute;
-    background-color: $pruple7;
+    background-color: $p7;
     width: 45px;
     height: 20px;
     top: 486px;
     left: 279px;
     transform: rotate(-48deg);
   }
-   .d96 {
+  .d96 {
     position: absolute;
-    background-color: $pruple5;
+    background-color: $p5;
     width: 130px;
     height: 15px;
     top: 510px;
     left: 200px;
-    clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+    clip-path: $c30;
     transform: rotate(-47deg);
     z-index: 6;
   }
-   .d97 {
+  .d97 {
     position: absolute;
-    background-color: $pruple14;
+    background-color: $p12;
     width: 40px;
     height: 90px;
     top: 415px;
     left: 280px;
     transform: rotate(45deg);
-    z-index: 4;
+    z-index: 5;
   }
-   .d98 {
+  .d98 {
     position: absolute;
-    background-color: $pruple14;
+    background-color: $p12;
     width: 15px;
     height: 45px;
     top: 397px;
     left: 329px;
     transform: rotate(-5deg);
-    z-index: 4;
+    z-index: 5;
   }
-   .d99 {
+  .d99 {
     position: absolute;
-    background-color: $pruple14;
-    width: 15px;
-    height: 30px;
-    top: 395px;
+    background-color: $p12;
+    width: 20px;
+    height: 40px;
+    top: 390px;
     left: 320px;
     transform: rotate(15deg);
-    z-index: 4;
+    z-index: 5;
   }
-   .d100 {
+  .d100 {
     position: absolute;
-    background-color: $pruple2;
-    width: 7px;
-    height: 205px;
-    top: 240px;
+    background-color: $p2;
+    width: 13px;
+    height: 217px;
+    top: 227px;
     left: 335px;
     transform: rotate(-5deg);
-    z-index: 6;
+    z-index: 20;
   }
-   .d101 {
+  .d101 {
     position: absolute;
-    background-color: $blue1;
+    background-color: $b1;
     width: 50px;
-    height: 100px;
-    top: 300px;
+    height: 115px;
+    top: 280px;
     left: 285px;
     transform: rotate(-5deg);
     z-index: 3;
   }
-   .d102 {
+  .d102 {
     position: absolute;
-    background-color: $blue1;
-    width: 70px;
+    background-color: #b7eeeb;
+    width: 120px;
     height: 65px;
-    top: 366px;
-    left: 259px;
+    top: 355px;
+    left: 225px;
     transform: rotate(55deg);
-    z-index: 3;
+    z-index: 4;
   }
-   .d103 {
+  .d103 {
     position: absolute;
-    background-color: $pruple6;
+    background-color: $p6;
     width: 70px;
     height: 35px;
     top: 462px;
@@ -1030,18 +1084,18 @@ $white: #ffffff;
     transform: rotate(-36deg);
     z-index: 5;
   }
-   .d104 {
+  .d104 {
     position: absolute;
-    background-color: $pruple6;
+    background-color: $p6;
     width: 115px;
     height: 50px;
     top: 490px;
     left: 140px;
     z-index: 5;
   }
-   .d105 {
+  .d105 {
     position: absolute;
-    background-color: $pruple6;
+    background-color: $p6;
     width: 45px;
     height: 45px;
     top: 508px;
@@ -1049,20 +1103,20 @@ $white: #ffffff;
     transform: rotate(-60deg);
     z-index: 5;
   }
-   .d106 {
+  .d106 {
     position: absolute;
-    background-color: $pruple5;
+    background-color: $p5;
     width: 40px;
     height: 45px;
     top: 461px;
     left: 254px;
     transform: rotate(175deg);
-    clip-path: polygon(50% 100%, 27% 0, 75% 0);
+    clip-path: $c18;
     z-index: 7;
   }
-   .d107 {
+  .d107 {
     position: absolute;
-    background-color: $pruple5;
+    background-color: $p5;
     width: 150px;
     height: 150px;
     top: 345px;
@@ -1070,27 +1124,27 @@ $white: #ffffff;
     transform: rotate(65deg);
     z-index: -5;
   }
-   .d108 {
+  .d108 {
     position: absolute;
-    background-color: $red1;
+    background-color: $r1;
     width: 40px;
     height: 143px;
     top: 400px;
     left: 70px;
     transform: rotate(-25deg);
   }
-   .d109 {
+  .d109 {
     position: absolute;
-    background-color: $red1;
+    background-color: $r1;
     width: 30px;
     height: 50px;
     top: 514px;
     left: 116px;
     transform: rotate(-71deg);
   }
-   .d110 {
+  .d110 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 40px;
     height: 85px;
     top: 495px;
@@ -1098,46 +1152,46 @@ $white: #ffffff;
     transform: rotate(83deg);
     overflow: hidden;
     .d111 {
-     position: absolute;
-     background-color: $red1;
-     width: 20px;
-     height: 20px;
-     top: 70px;
-     left: 23px;
-     transform: rotate(7deg);
-   }
+      position: absolute;
+      background-color: $r1;
+      width: 20px;
+      height: 20px;
+      top: 70px;
+      left: 23px;
+      transform: rotate(7deg);
+    }
   }
-   .d112 {
+  .d112 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 28px;
     height: 50px;
     top: 490px;
     left: 160px;
     z-index: 10;
   }
-   .d113 {
+  .d113 {
     position: absolute;
-    background-color: $pruple6;
+    background-color: $p6;
     width: 45px;
     height: 30px;
     top: 483px;
     left: 125px;
-    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: $c31;
     z-index: 5;
   }
-   .d114 {
+  .d114 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 35px;
     height: 50px;
     top: 495px;
     left: 127px;
     z-index: 3;
   }
-   .d115 {
+  .d115 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 40px;
     height: 70px;
     top: 470px;
@@ -1145,9 +1199,9 @@ $white: #ffffff;
     z-index: 3;
     transform: rotate(-25deg);
   }
-   .d116 {
+  .d116 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 40px;
     height: 60px;
     top: 430px;
@@ -1155,9 +1209,9 @@ $white: #ffffff;
     z-index: 3;
     transform: rotate(-33deg);
   }
-   .d117 {
+  .d117 {
     position: absolute;
-    background-color: $red1;
+    background-color: $r1;
     width: 10px;
     height: 20px;
     top: 478px;
@@ -1165,18 +1219,18 @@ $white: #ffffff;
     z-index: 3;
     transform: rotate(55deg);
   }
-   .d118 {
+  .d118 {
     position: absolute;
-    background-color: $pruple5;
+    background-color: $p5;
     width: 50px;
     height: 50px;
     top: 440px;
     left: 139px;
     z-index: 4;
   }
-   .d119 {
+  .d119 {
     position: absolute;
-    background-color: $blue2;
+    background-color: $b2;
     width: 70px;
     height: 70px;
     top: 390px;
@@ -1184,36 +1238,36 @@ $white: #ffffff;
     transform: rotate(-40deg);
     z-index: 2;
   }
-   .d120 {
+  .d120 {
     position: absolute;
-    background-color: $pruple6;
+    background-color: $p6;
     width: 25px;
     height: 25px;
     top: 495px;
     left: 245px;
     z-index: 5;
   }
-   .d121 {
+  .d121 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 55px;
     height: 55px;
     top: 435px;
     left: 189px;
     z-index: -2;
   }
-   .d122 {
+  .d122 {
     position: absolute;
-    background-color: $yellow4;
+    background-color: $y4;
     width: 70px;
     height: 10px;
     top: 480px;
     left: 155px;
     z-index: 10;
   }
-   .d123 {
+  .d123 {
     position: absolute;
-    background-color: $yellow4;
+    background-color: $y4;
     width: 60px;
     height: 10px;
     top: 490px;
@@ -1221,9 +1275,9 @@ $white: #ffffff;
     z-index: 10;
     transform: rotate(20deg);
   }
-   .d124 {
+  .d124 {
     position: absolute;
-    background-color: $yellow4;
+    background-color: $y4;
     width: 70px;
     height: 10px;
     top: 478px;
@@ -1231,28 +1285,28 @@ $white: #ffffff;
     z-index: 10;
     transform: rotate(-40deg);
   }
-   .d125 {
+  .d125 {
     position: absolute;
-    background-color: $yellow4;
+    background-color: $y4;
     width: 35px;
     height: 20px;
     top: 480px;
     left: 185px;
     z-index: 10;
   }
-   .d126 {
+  .d126 {
     position: absolute;
-    background-color: $yellow4;
+    background-color: #f5cb77;
     width: 20px;
-    height: 60px;
-    top: 430px;
+    height: 55px;
+    top: 435px;
     left: 210px;
-    z-index: 10;
+    z-index: 8;
     transform: rotate(-15deg);
   }
-   .d127 {
+  .d127 {
     position: absolute;
-    background-color: $yellow4;
+    background-color: $y4;
     width: 35px;
     height: 50px;
     top: 429px;
@@ -1260,9 +1314,9 @@ $white: #ffffff;
     z-index: 10;
     transform: rotate(-40deg);
   }
-   .d128 {
+  .d128 {
     position: absolute;
-    background-color: $pruple5;
+    background-color: $p5;
     width: 25px;
     height: 50px;
     top: 440px;
@@ -1270,28 +1324,28 @@ $white: #ffffff;
     z-index: 4;
     transform: rotate(-45deg);
   }
-   .d129 {
+  .d129 {
     position: absolute;
-    background-color: $pruple5;
+    background-color: $p5;
     width: 60px;
     height: 20px;
     top: 436px;
     left: 111px;
     z-index: 4;
   }
-   .d130 {
+  .d130 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 50px;
     height: 150px;
     top: 270px;
     left: -3px;
-    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
+    clip-path: $c32;
     z-index: -6;
   }
-   .d131 {
+  .d131 {
     position: absolute;
-    background-color: $yellow1;
+    background-color: $y1;
     width: 25px;
     height: 30px;
     top: 388px;
@@ -1299,9 +1353,9 @@ $white: #ffffff;
     z-index: -6;
     transform: rotate(-37deg);
   }
-   .d132 {
+  .d132 {
     position: absolute;
-    background-color: $red1;
+    background-color: $r1;
     width: 40px;
     height: 20px;
     top: 401px;
@@ -1309,28 +1363,28 @@ $white: #ffffff;
     z-index: 1;
     transform: rotate(-37deg);
   }
-   .d133 {
+  .d133 {
     position: absolute;
-    background-color: $red3;
+    background-color: $r3;
     width: 60px;
     height: 70px;
-    top: 365px;
+    top: 368px;
     left: 112px;
-    z-index: 2;
+    z-index: 1;
   }
-   .d134 {
+  .d134 {
     position: absolute;
-    background-color: $red3;
+    background-color: $r3;
     width: 65px;
     height: 50px;
     top: 377px;
     left: 68px;
-    z-index: 2;
+    z-index: 1;
     transform: rotate(-37deg);
   }
-   .d135 {
+  .d135 {
     position: absolute;
-    background-color: $red1;
+    background-color: $r1;
     width: 15px;
     height: 30px;
     top: 404px;
@@ -1338,9 +1392,9 @@ $white: #ffffff;
     z-index: 4;
     transform: rotate(63deg);
   }
-   .d136 {
+  .d136 {
     position: absolute;
-    background-color: $red1;
+    background-color: $r1;
     width: 25px;
     height: 60px;
     top: 396px;
@@ -1348,14 +1402,2147 @@ $white: #ffffff;
     z-index: 2;
     transform: rotate(-74deg);
   }
-   .d137 {
+  .d137 {
     position: absolute;
-    background-color: $red1;
+    background-color: $bl1;
+    width: 7px;
+    height: 6px;
+    top: 440px;
+    left: 108px;
+    z-index: 5;
+    transform: rotate(-50deg);
+  }
+  .d138 {
+    position: absolute;
+    background-color: $bl1;
+    width: 7px;
+    height: 20px;
+    top: 439px;
+    left: 118px;
+    z-index: 5;
+    transform: rotate(-60deg);
+  }
+  .d139 {
+    position: absolute;
+    background-color: $bl1;
+    width: 45px;
+    height: 10px;
+    top: 448px;
+    left: 129px;
+    z-index: 5;
+    transform: rotate(2deg);
+  }
+  .d140 {
+    position: absolute;
+    background-color: $bl1;
+    width: 18px;
+    height: 10px;
+    top: 447px;
+    left: 170px;
+    z-index: 5;
+    transform: rotate(-15deg);
+  }
+  .d141 {
+    position: absolute;
+    background-color: $r2;
+    width: 100px;
+    height: 30px;
+    top: 423px;
+    left: 132px;
+    z-index: 5;
+  }
+  .d142 {
+    position: absolute;
+    background-color: $r2;
+    width: 40px;
+    height: 15px;
+    top: 429px;
+    left: 98px;
+    z-index: 5;
+    transform: rotate(30deg);
+  }
+
+  .d143 {
+    position: absolute;
+    background-color: $r1;
+    width: 15px;
+    height: 10px;
+    top: -3px;
+    left: 0px;
+    z-index: 5;
+  }
+
+  .d144 {
+    position: absolute;
+    background-color: $r2;
     width: 25px;
-    height: 60px;
-    top: 396px;
+    height: 15px;
+    top: 428px;
+    left: 115px;
+    z-index: 5;
+  }
+  .d145 {
+    position: absolute;
+    background-color: $bl1;
+    width: 15px;
+    height: 8px;
+    top: 426px;
+    left: 95px;
+    z-index: 5;
+    transform: rotate(15deg);
+  }
+  .d146 {
+    position: absolute;
+    background-color: $bl1;
+    width: 20px;
+    height: 9px;
+    top: 424px;
+    left: 107px;
+    z-index: 5;
+    transform: rotate(-18deg);
+  }
+  .d147 {
+    position: absolute;
+    background-color: $bl1;
+    width: 9px;
+    height: 9px;
+    top: 421px;
     left: 90px;
+    z-index: 7;
+    clip-path: $c28;
+    transform: rotate(-40deg);
+  }
+  .d148 {
+    position: absolute;
+    background-color: $bl1;
+    width: 23px;
+    height: 5px;
+    top: 423px;
+    left: 102px;
+    z-index: 7;
+    transform: rotate(-20deg);
+  }
+  .d149 {
+    position: absolute;
+    background-color: $bl1;
+    width: 45px;
+    height: 6px;
+    top: 422px;
+    left: 123px;
+    z-index: 7;
+    transform: rotate(8deg);
+  }
+  .d150 {
+    position: absolute;
+    background-color: $bl1;
+    width: 12px;
+    height: 6px;
+    top: 422.8px;
+    left: 124px;
+    z-index: 7;
+    transform: rotate(-18deg);
+  }
+  .d151 {
+    position: absolute;
+    background-color: $r4;
+    width: 33px;
+    height: 60px;
+    top: 378px;
+    left: 90px;
+    z-index: 1;
+    clip-path: $c28;
+    transform: rotate(-130deg);
+  }
+  .d152 {
+    position: absolute;
+    background-color: $r4;
+    width: 30px;
+    height: 40px;
+    top: 360px;
+    left: 110px;
+    z-index: 1;
+  }
+  .d153 {
+    position: absolute;
+    background-color: $r4;
+    width: 15px;
+    height: 40px;
+    top: 360px;
+    left: 132.5px;
+    z-index: 1;
+    transform: rotate(20deg);
+  }
+  .d154 {
+    position: absolute;
+    background-color: $p6;
+    width: 20px;
+    height: 10px;
+    top: 437px;
+    left: 193px;
+    z-index: 15;
+    transform: rotate(-40deg);
+  }
+  .d155 {
+    position: absolute;
+    background-color: $p6;
+    width: 31px;
+    height: 8px;
+    top: 431.4px;
+    left: 193.3px;
+    z-index: 9;
+    transform: rotate(7deg);
+  }
+  .d156 {
+    position: absolute;
+    background-color: $p6;
+    width: 30px;
+    height: 8px;
+    top: 442px;
+    left: 169px;
+    z-index: 9;
+    transform: rotate(10deg);
+  }
+  .d158 {
+    position: absolute;
+    background-color: $p6;
+    width: 22px;
+    height: 10px;
+    top: 434px;
+    left: 176px;
+    z-index: 15;
+    transform: rotate(-30deg);
+  }
+  .d159 {
+    position: absolute;
+    background-color: $p6;
+    width: 20px;
+    height: 8px;
+    top: 439px;
+    left: 155px;
+    z-index: 15;
+    transform: rotate(5deg);
+  }
+  .d160 {
+    position: absolute;
+    background-color: $p6;
+    width: 18px;
+    height: 12px;
+    top: 434px;
+    left: 185px;
+    z-index: 15;
+  }
+  .d161 {
+    position: absolute;
+    background-color: $r2;
+    width: 4px;
+    height: 7px;
+    top: 443px;
+    left: 165px;
+    z-index: 15;
+  }
+  .d162 {
+    position: absolute;
+    background-color: $y1;
+    width: 15px;
+    height: 10px;
+    top: 445px;
+    left: 198px;
+    z-index: 6;
+  }
+  .d163 {
+    position: absolute;
+    background-color: $r4;
+    width: 40px;
+    height: 8px;
+    top: 417px;
+    left: 130px;
+    z-index: 6;
+  }
+  .d165 {
+    position: absolute;
+    background-color: $r4;
+    width: 25px;
+    height: 10px;
+    top: 415px;
+    left: 125px;
+    z-index: 6;
+    transform: rotate(-18deg);
+  }
+  .d166 {
+    position: absolute;
+    background-color: $r4;
+    width: 22px;
+    height: 5px;
+    top: 414px;
+    left: 146px;
+    z-index: 6;
+    transform: rotate(15deg);
+  }
+  .d167 {
+    position: absolute;
+    background-color: $r4;
+    width: 25px;
+    height: 5.5px;
+    top: 423px;
+    left: 166px;
+    z-index: 6;
+    transform: rotate(-12deg);
+  }
+  .d168 {
+    position: absolute;
+    background-color: $r4;
+    width: 10px;
+    height: 5.5px;
+    top: 421px;
+    left: 190px;
+    z-index: 7;
+    transform: rotate(5deg);
+  }
+  .d169 {
+    position: absolute;
+    background-color: $bl1;
+    width: 12px;
+    height: 25px;
+    top: 414.5px;
+    left: 206px;
+    z-index: 17;
+    transform: rotate(100deg);
+    clip-path: $c33;
+  }
+  .d170 {
+    position: absolute;
+    background-color: $r3;
+    width: 9px;
+    height: 22px;
+    top: 407px;
+    left: 176px;
+    z-index: 5;
+    transform: rotate(75deg);
+  }
+  .d171 {
+    position: absolute;
+    background-color: $r3;
+    width: 8px;
+    height: 40px;
+    top: 401.5px;
+    left: 203px;
+    z-index: 5;
+    transform: rotate(110deg);
+  }
+  .d172 {
+    position: absolute;
+    background-color: $bl1;
+    width: 10px;
+    height: 20px;
+    top: 415px;
+    left: 228px;
+    z-index: 17;
+    clip-path: $c33;
+    transform: rotate(-110deg);
+  }
+  .d173 {
+    position: absolute;
+    background-color: $r3;
+    width: 3px;
+    height: 19px;
+    top: 414px;
+    left: 231px;
+    z-index: 14;
+    transform: rotate(-110deg);
+  }
+  .d174 {
+    position: absolute;
+    background-color: $r2;
+    width: 17px;
+    height: 4px;
+    top: 426px;
+    left: 208px;
+    z-index: 5;
+    transform: rotate(10deg);
+  }
+  .d175 {
+    position: absolute;
+    background-color: $y7;
+    width: 25px;
+    height: 10px;
+    top: 409px;
+    left: 152px;
+    z-index: 4;
+    transform: rotate(15deg);
+  }
+  .d176 {
+    position: absolute;
+    background-color: $y7;
+    width: 30px;
+    height: 10px;
+    top: 406px;
+    left: 165px;
+    z-index: 4;
+    transform: rotate(-25deg);
+  }
+  .d177 {
+    position: absolute;
+    background-color: $y7;
+    width: 45px;
+    height: 11px;
+    top: 408px;
+    left: 189px;
+    z-index: 7;
+    transform: rotate(20deg);
+  }
+  .d178 {
+    position: absolute;
+    background-color: $r4;
+    width: 40px;
+    height: 8px;
+    top: 380px;
+    left: 152px;
+    z-index: 7;
+    clip-path: $c34;
+    transform: rotate(90deg);
+  }
+  .d179 {
+    position: absolute;
+    background-color: $b2;
+    width: 20px;
+    height: 17px;
+    top: 369px;
+    left: 170px;
+    z-index: 6;
+    clip-path: $c35;
+    transform: rotate(180deg);
+  }
+  .d180 {
+    position: absolute;
+    background-color: $p10;
+    width: 65px;
+    height: 52px;
+    top: 364px;
+    left: 170px;
     z-index: 2;
-    transform: rotate(-74deg);
-  }  
+  }
+  .d181 {
+    position: absolute;
+    background-color: $y3;
+    width: 30px;
+    height: 16px;
+    top: 364px;
+    left: 206px;
+    z-index: 3;
+  }
+  .d182 {
+    position: absolute;
+    background-color: $y3;
+    width: 15px;
+    height: 58px;
+    top: 359px;
+    left: 240px;
+    z-index: 2;
+    transform: rotate(-35deg);
+  }
+  .d183 {
+    position: absolute;
+    background-color: $y3;
+    width: 15px;
+    height: 50px;
+    top: 370px;
+    left: 234px;
+    z-index: 2;
+    transform: rotate(-55deg);
+  }
+  .d184 {
+    position: absolute;
+    background-color: $b2;
+    width: 10px;
+    height: 15px;
+    top: 400px;
+    left: 233px;
+    z-index: 2;
+    transform: rotate(-55deg);
+  }
+  .d185 {
+    position: absolute;
+    background-color: $y3;
+    width: 27px;
+    height: 22px;
+    top: 370px;
+    left: 200px;
+    z-index: 2;
+    transform: rotate(-45deg);
+  }
+  .d186 {
+    position: absolute;
+    background-color: $p10;
+    width: 7px;
+    height: 30px;
+    top: 382px;
+    left: 208px;
+    z-index: 2;
+  }
+  .d187 {
+    position: absolute;
+    background-color: $p5;
+    width: 30px;
+    height: 25px;
+    top: 345px;
+    left: 139px;
+    z-index: 2;
+  }
+  .d188 {
+    position: absolute;
+    background-color: $p5;
+    width: 42px;
+    height: 40px;
+    top: 320px;
+    left: 110px;
+    z-index: 2;
+    overflow: hidden;
+
+    .d210 {
+      position: absolute;
+      background-color: $r3;
+      width: 7px;
+      height: 18px;
+      top: 14px;
+      left: 2px;
+      transform: rotate(70deg);
+    }
+  }
+  .d189 {
+    position: absolute;
+    background-color: $bl1;
+    width: 35px;
+    height: 15px;
+    top: 353px;
+    left: 110px;
+    z-index: 2;
+    transform: rotate(30deg);
+  }
+  .d190 {
+    position: absolute;
+    background-color: $bl1;
+    width: 20px;
+    height: 15px;
+    top: 357px;
+    left: 134px;
+    z-index: 2;
+    transform: rotate(-30deg);
+  }
+  .d191 {
+    position: absolute;
+    background-color: $p5;
+    width: 7px;
+    height: 15px;
+    top: 355px;
+    left: 154px;
+    z-index: 3;
+  }
+  .d192 {
+    position: absolute;
+    background-color: $bl1;
+    width: 20px;
+    height: 30px;
+    top: 340px;
+    left: 130px;
+    z-index: 2;
+    transform: rotate(-30deg);
+  }
+  .d193 {
+    position: absolute;
+    background-color: $p5;
+    width: 8px;
+    height: 20px;
+    top: 342px;
+    left: 118px;
+    z-index: 2;
+    transform: rotate(-48deg);
+  }
+  .d194 {
+    position: absolute;
+    background-color: $p13;
+    width: 22px;
+    height: 22px;
+    top: 348px;
+    left: 168px;
+    z-index: 7;
+    overflow: hidden;
+    .d198 {
+      position: absolute;
+      background-color: $y7;
+      width: 25px;
+      height: 15px;
+      top: 14px;
+      left: 5px;
+      z-index: 7;
+      transform: rotate(-45deg);
+    }
+  }
+  .d195 {
+    position: absolute;
+    background-color: $p13;
+    width: 40px;
+    height: 25px;
+    top: 337px;
+    left: 180px;
+    z-index: 7;
+    transform: rotate(-30deg);
+    overflow: hidden;
+    .d199 {
+      position: absolute;
+      background-color: $y7;
+      width: 15px;
+      height: 15px;
+      top: 15px;
+      left: -8px;
+      z-index: 7;
+      transform: rotate(30deg);
+    }
+
+    .d202 {
+      position: absolute;
+      background-color: $y7;
+      width: 15px;
+      height: 5px;
+      top: 20px;
+      left: 25px;
+      transform: rotate(-35deg);
+      z-index: 7;
+    }
+  }
+  .d196 {
+    position: absolute;
+    background-color: $b1;
+    width: 55px;
+    height: 50px;
+    top: 315px;
+    left: 199px;
+    z-index: 6;
+  }
+  .d197 {
+    position: absolute;
+    background-color: $b1;
+    width: 20px;
+    height: 60px;
+    top: 305px;
+    left: 217px;
+    z-index: 11;
+  }
+  .d200 {
+    position: absolute;
+    background-color: $bl1;
+    width: 20px;
+    height: 10px;
+    top: 346px;
+    left: 182px;
+    clip-path: $c4;
+    transform: rotate(-30deg);
+    z-index: 8;
+  }
+  .d201 {
+    position: absolute;
+    background-color: $p13;
+    width: 19px;
+    height: 4px;
+    top: 354px;
+    left: 184px;
+    transform: rotate(-20deg);
+    z-index: 9;
+  }
+
+  .d203 {
+    position: absolute;
+    background-color: $y7;
+    width: 18px;
+    height: 45px;
+    top: 299px;
+    left: 199px;
+    z-index: 9;
+  }
+
+  .d204 {
+    position: absolute;
+    background-color: $w;
+    width: 17px;
+    height: 22px;
+    top: 326px;
+    left: 202px;
+    z-index: 10;
+    transform: rotate(25deg);
+  }
+  .d205 {
+    position: absolute;
+    background-color: $p13;
+    width: 5px;
+    height: 15px;
+    top: 340px;
+    left: 212px;
+    z-index: 10;
+    transform: rotate(40deg);
+  }
+
+  .d206 {
+    position: absolute;
+    background-color: $y5;
+    width: 20px;
+    height: 30px;
+    top: 310px;
+    left: 200px;
+    z-index: 9;
+    clip-path: $c22;
+  }
+  .d207 {
+    position: absolute;
+    background-color: $r3;
+    width: 24px;
+    height: 15px;
+    top: 335px;
+    left: 155px;
+    z-index: 15;
+    clip-path: $c22;
+  }
+  .d208 {
+    position: absolute;
+    background-color: $r3;
+    width: 10px;
+    height: 40px;
+    top: 310px;
+    left: 144px;
+    z-index: 15;
+    transform: rotate(-30deg);
+  }
+  .d209 {
+    position: absolute;
+    background-color: $r3;
+    width: 8px;
+    height: 25px;
+    top: 317px;
+    left: 110px;
+    z-index: 15;
+  }
+
+  .d211 {
+    position: absolute;
+    background-color: $r3;
+    width: 5px;
+    height: 10px;
+    top: 339px;
+    left: 113px;
+    z-index: 15;
+    transform: rotate(70deg);
+  }
+  .d212 {
+    position: absolute;
+    background-color: $r3;
+    width: 10px;
+    height: 45px;
+    top: 281px;
+    left: 124px;
+    z-index: 15;
+    transform: rotate(45deg);
+  }
+  .d213 {
+    position: absolute;
+    background-color: $r3;
+    width: 10px;
+    height: 15px;
+    top: 328px;
+    left: 114px;
+    z-index: 15;
+    transform: rotate(-10deg);
+  }
+  .d214 {
+    position: absolute;
+    background-color: $r3;
+    width: 33px;
+    height: 18px;
+    top: 308px;
+    left: 112px;
+    z-index: 15;
+    transform: rotate(-30deg);
+  }
+  .d215 {
+    position: absolute;
+    background-color: $r3;
+    width: 20px;
+    height: 11px;
+    top: 292px;
+    left: 132px;
+    z-index: 15;
+    transform: rotate(-65deg);
+  }
+  .d216 {
+    position: absolute;
+    background-color: $r3;
+    width: 16px;
+    height: 75px;
+    top: 216px;
+    left: 135px;
+    z-index: 15;
+  }
+  .d217 {
+    position: absolute;
+    background-color: $y7;
+    width: 15px;
+    height: 20px;
+    top: 308px;
+    left: 116px;
+    z-index: 16;
+    transform: rotate(7deg);
+    clip-path: $c36;
+  }
+
+  .d218 {
+    position: absolute;
+    background-color: $y7;
+    width: 6px;
+    height: 30px;
+    top: 324px;
+    left: 186px;
+    z-index: 8;
+    transform: rotate(58deg);
+  }
+
+  .d219 {
+    position: absolute;
+    background-color: $y7;
+    width: 70px;
+    height: 140px;
+    top: 216px;
+    left: 140px;
+    z-index: 1;
+  }
+  .d220 {
+    position: absolute;
+    background-color: $b1;
+    width: 60px;
+    height: 40px;
+    top: 270px;
+    left: 195px;
+    z-index: 15;
+    transform: rotate(45deg);
+  }
+  .d221 {
+    position: absolute;
+    background-color: $b1;
+    width: 30px;
+    height: 73px;
+    top: 209px;
+    left: 190px;
+    z-index: 14;
+  }
+  .d222 {
+    position: absolute;
+    background-color: $r4;
+    width: 20px;
+    height: 50px;
+    top: 260px;
+    left: 125px;
+    z-index: 10;
+    transform: rotate(15deg);
+  }
+  .d223 {
+    position: absolute;
+    background-color: $p9;
+    width: 150px;
+    height: 200px;
+    top: 220px;
+    left: 0px;
+    z-index: -7;
+  }
+  .d224 {
+    position: absolute;
+    background-color: $b1;
+    width: 130px;
+    height: 120px;
+    top: 220px;
+    left: 200px;
+  }
+  .d225 {
+    position: absolute;
+    background-color: $p2;
+    width: 32px;
+    height: 15px;
+    top: 214px;
+    left: 301px;
+    z-index: 16;
+    transform: rotate(25deg);
+  }
+  .d226 {
+    position: absolute;
+    background-color: $y5;
+    width: 30px;
+    height: 130px;
+    top: 210px;
+    left: 170px;
+    z-index: 5;
+  }
+  .d227 {
+    position: absolute;
+    background-color: $y5;
+    width: 14px;
+    height: 55px;
+    top: 274px;
+    left: 190px;
+    z-index: 10;
+  }
+
+  .d228 {
+    position: absolute;
+    background-color: $y7;
+    width: 8px;
+    height: 30px;
+    top: 320px;
+    left: 180px;
+    z-index: 10;
+    transform: rotate(70deg);
+  }
+  .d229 {
+    position: absolute;
+    background-color: $y7;
+    width: 4px;
+    height: 5px;
+    top: 326px;
+    left: 196px;
+    z-index: 10;
+  }
+  .d230 {
+    position: absolute;
+    background-color: $w;
+    width: 16px;
+    height: 50px;
+    top: 266px;
+    left: 165px;
+    z-index: 10;
+  }
+  .d231 {
+    position: absolute;
+    background-color: $w;
+    width: 43px;
+    height: 43px;
+    top: 299px;
+    left: 138px;
+    z-index: 10;
+    transform: rotate(-90deg);
+    clip-path: $c37;
+  }
+  .d232 {
+    position: absolute;
+    background-color: $w;
+    width: 16px;
+    height: 16px;
+    top: 250px;
+    left: 165px;
+    z-index: 10;
+    clip-path: $c38;
+  }
+  .d233 {
+    position: absolute;
+    background-color: $y5;
+    width: 17px;
+    height: 17px;
+    top: 202px;
+    left: 171px;
+    z-index: 15;
+    transform: rotate(25deg);
+  }
+  .d234 {
+    position: absolute;
+    background-color: $y7;
+    width: 15px;
+    height: 35px;
+    top: 195px;
+    left: 155px;
+    z-index: 14;
+    transform: rotate(25deg);
+  }
+  .d235 {
+    position: absolute;
+    background-color: $w;
+    width: 11px;
+    height: 25px;
+    top: 201px;
+    left: 168px;
+    z-index: 15;
+  }
+  .d236 {
+    position: absolute;
+    background-color: $w;
+    width: 11px;
+    height: 11px;
+    top: 190px;
+    left: 168px;
+    z-index: 15;
+    clip-path: $c39;
+  }
+  .d237 {
+    position: absolute;
+    background-color: $w;
+    width: 50px;
+    height: 50px;
+    top: 203px;
+    left: 129px;
+    z-index: 14;
+    transform: rotate(-90deg);
+    clip-path: $c39;
+  }
+
+  .d238 {
+    position: absolute;
+    background-color: $p7;
+    width: 61px;
+    height: 35px;
+    top: 222px;
+    left: 274px;
+    z-index: 14;
+    transform: rotate(35deg);
+  }
+  .d239 {
+    position: absolute;
+    background-color: $p7;
+    width: 30px;
+    height: 50px;
+    top: 230.2px;
+    left: 309.5px;
+    z-index: 14;
+    clip-path: $c40;
+  }
+
+  .d240 {
+    position: absolute;
+    background-color: $b2;
+    width: 25px;
+    height: 8px;
+    top: 240px;
+    left: 266px;
+    z-index: 14;
+    transform: rotate(-35deg);
+  }
+  .d241 {
+    position: absolute;
+    background-color: $b1;
+    width: 20px;
+    height: 9px;
+    top: 232px;
+    left: 267px;
+    z-index: 14;
+    transform: rotate(-34deg);
+  }
+  .d242 {
+    position: absolute;
+    background-color: $b2;
+    width: 40px;
+    height: 20px;
+    top: 245px;
+    left: 239px;
+    z-index: 15;
+  }
+  .d243 {
+    position: absolute;
+    background-color: $b2;
+    width: 40px;
+    height: 8px;
+    top: 243px;
+    left: 235px;
+    z-index: 14;
+    transform: rotate(5deg);
+  }
+  .d244 {
+    position: absolute;
+    background-color: $b1;
+    width: 20px;
+    height: 6px;
+    top: 237px;
+    left: 246px;
+    z-index: 22;
+    transform: rotate(3deg);
+  }
+  .d245 {
+    position: absolute;
+    background-color: $b2;
+    width: 40px;
+    height: 60px;
+    top: 227px;
+    left: 210px;
+    z-index: 15;
+  }
+  .d246 {
+    position: absolute;
+    background-color: $b1;
+    width: 30px;
+    height: 55px;
+    top: 250px;
+    left: 207px;
+    z-index: 15;
+    transform: rotate(-51deg);
+  }
+  .d247 {
+    position: absolute;
+    background-color: $b1;
+    width: 20px;
+    height: 22px;
+    top: 220px;
+    left: 207px;
+    z-index: 15;
+    clip-path: $c41;
+  }
+  .d248 {
+    position: absolute;
+    background-color: $y1;
+    width: 43px;
+    height: 47px;
+    top: 187px;
+    left: 189px;
+    z-index: 14;
+    transform: rotate(5deg);
+    clip-path: $c42;
+  }
+  .d249 {
+    position: absolute;
+    background-color: $y1;
+    width: 16px;
+    height: 24px;
+    top: 189.3px;
+    left: 232px;
+    z-index: 16;
+    transform: rotate(2deg);
+  }
+  .d250 {
+    position: absolute;
+    background-color: $p6;
+    width: 52px;
+    height: 43px;
+    top: 185px;
+    left: 245px;
+    z-index: 15;
+    transform: rotate(-20deg);
+  }
+  .d251 {
+    position: absolute;
+    background-color: $p6;
+    width: 28px;
+    height: 45px;
+    top: 178px;
+    left: 287px;
+    z-index: 18;
+    clip-path: $c31;
+  }
+  .d252 {
+    position: absolute;
+    background-color: $p6;
+    width: 28px;
+    height: 45px;
+    top: 178px;
+    left: 287px;
+    z-index: 18;
+    clip-path: $c31;
+  }
+  .d253 {
+    position: absolute;
+    background-color: $p11;
+    width: 35px;
+    height: 30px;
+    top: 180px;
+    left: 179px;
+    z-index: 13;
+  }
+  .d254 {
+    position: absolute;
+    background-color: $p11;
+    width: 35px;
+    height: 30px;
+    top: 175px;
+    left: 200px;
+    z-index: 13;
+    transform: rotate(-50deg);
+  }
+  .d255 {
+    position: absolute;
+    background-color: $p11;
+    width: 11px;
+    height: 13px;
+    top: 175px;
+    left: 182px;
+    z-index: 13;
+    transform: rotate(-45deg);
+  }
+  .d256 {
+    position: absolute;
+    background-color: $p11;
+    width: 15px;
+    height: 20px;
+    top: 162px;
+    left: 197px;
+    z-index: 13;
+    transform: rotate(50deg);
+    clip-path: $c28;
+  }
+  .d257 {
+    position: absolute;
+    background-color: $p11;
+    width: 10px;
+    height: 10px;
+    top: 178px;
+    left: 192px;
+    z-index: 13;
+    transform: rotate(55deg);
+  }
+  .d258 {
+    position: absolute;
+    background-color: $p8;
+    width: 65px;
+    height: 30px;
+    top: 165px;
+    left: 217px;
+    z-index: 13;
+    transform: rotate(-5deg);
+  }
+  .d259 {
+    position: absolute;
+    background-color: $p2;
+    width: 40px;
+    height: 25px;
+    top: 172px;
+    left: 215px;
+    z-index: 13;
+    transform: rotate(-7deg);
+  }
+  .d260 {
+    position: absolute;
+    background-color: $p2;
+    width: 25px;
+    height: 20px;
+    top: 178px;
+    left: 202px;
+    z-index: 13;
+    transform: rotate(-25deg);
+  }
+  .d261 {
+    position: absolute;
+    background-color: $p11;
+    width: 3px;
+    height: 25px;
+    top: 165px;
+    left: 211px;
+    z-index: 13;
+    transform: rotate(30deg);
+  }
+  .d262 {
+    position: absolute;
+    background-color: $p11;
+    width: 20px;
+    height: 18px;
+    top: 176px;
+    left: 195px;
+    z-index: 13;
+    transform: rotate(-30deg);
+    clip-path: $c43;
+  }
+  .d263 {
+    position: absolute;
+    background-color: $p2;
+    width: 40px;
+    height: 18px;
+    top: 175px;
+    left: 252px;
+    z-index: 13;
+    transform: rotate(-10deg);
+  }
+  .d264 {
+    position: absolute;
+    background-color: $p2;
+    width: 20px;
+    height: 18px;
+    top: 174px;
+    left: 288px;
+    z-index: 13;
+    transform: rotate(13deg);
+  }
+  .d265 {
+    position: absolute;
+    background-color: $p8;
+    width: 25px;
+    height: 25px;
+    top: 166px;
+    left: 276px;
+    z-index: 12;
+    transform: rotate(20deg);
+  }
+  .d266 {
+    position: absolute;
+    background-color: $p2;
+    width: 25px;
+    height: 25px;
+    top: 167px;
+    left: 290px;
+    z-index: 11;
+    transform: rotate(-30deg);
+  }
+  .d267 {
+    position: absolute;
+    background-color: $p2;
+    width: 10px;
+    height: 10px;
+    top: 167px;
+    left: 298px;
+    z-index: 13;
+  }
+  .d268 {
+    position: absolute;
+    background-color: $bl1;
+    width: 15px;
+    height: 15px;
+    top: 215px;
+    left: 210px;
+    z-index: 18;
+    clip-path: $c44;
+  }
+  .d269 {
+    position: absolute;
+    background-color: $bl1;
+    width: 25px;
+    height: 4px;
+    top: 215px;
+    left: 209px;
+    z-index: 18;
+    transform: rotate(-40deg);
+  }
+  .d270 {
+    position: absolute;
+    background-color: $bl1;
+    width: 20px;
+    height: 4px;
+    top: 204px;
+    left: 230px;
+    z-index: 18;
+    transform: rotate(-20deg);
+  }
+  .d271 {
+    position: absolute;
+    background-color: $bl1;
+    width: 24px;
+    height: 2px;
+    top: 211px;
+    left: 220px;
+    z-index: 18;
+    transform: rotate(-35deg);
+  }
+  .d272 {
+    position: absolute;
+    background-color: $r5;
+    width: 24px;
+    height: 8px;
+    top: 211px;
+    left: 220px;
+    z-index: 16;
+    transform: rotate(-35deg);
+  }
+  .d273 {
+    position: absolute;
+    background-color: $r5;
+    width: 6px;
+    height: 10px;
+    top: 220px;
+    left: 222px;
+    z-index: 15;
+  }
+  .d274 {
+    position: absolute;
+    background-color: $bl1;
+    width: 20px;
+    height: 6px;
+    top: 196px;
+    left: 232px;
+    z-index: 18;
+    transform: rotate(2deg);
+    clip-path: $c4;
+  }
+  .d275 {
+    position: absolute;
+    background-color: $bl1;
+    width: 19px;
+    height: 4px;
+    top: 199px;
+    left: 218px;
+    z-index: 18;
+    transform: rotate(-22deg);
+  }
+  .d276 {
+    position: absolute;
+    background-color: $bl1;
+    width: 45px;
+    height: 4px;
+    top: 196px;
+    left: 235px;
+    z-index: 18;
+    transform: rotate(2deg);
+  }
+  .d277 {
+    position: absolute;
+    background-color: $bl1;
+    width: 10px;
+    height: 35px;
+    top: 189px;
+    left: 290px;
+    z-index: 18;
+    transform: rotate(115deg);
+    clip-path: $c33;
+  }
+  .d278 {
+    position: absolute;
+    background-color: $bl1;
+    width: 35px;
+    height: 21px;
+    top: 204px;
+    left: 240px;
+    z-index: 20;
+  }
+  .d279 {
+    position: absolute;
+    background-color: $bl1;
+    width: 10px;
+    height: 10px;
+    top: 198px;
+    left: 248px;
+    z-index: 20;
+  }
+  .d280 {
+    position: absolute;
+    background-color: $w;
+    width: 25px;
+    height: 8px;
+    top: 226px;
+    left: 227px;
+    z-index: 18;
+    transform: rotate(15deg);
+  }
+  .d281 {
+    position: absolute;
+    background-color: $w;
+    width: 50px;
+    height: 20px;
+    top: 210px;
+    left: 227px;
+    z-index: 15;
+  }
+  .d282 {
+    position: absolute;
+    background-color: $bl1;
+    width: 20px;
+    height: 15px;
+    top: 221px;
+    left: 242px;
+    z-index: 20;
+    transform: rotate(52deg);
+  }
+  .d283 {
+    position: absolute;
+    background-color: $bl1;
+    width: 20px;
+    height: 15px;
+    top: 221px;
+    left: 253px;
+    z-index: 20;
+    transform: rotate(-51deg);
+  }
+  .d284 {
+    position: absolute;
+    background-color: $w;
+    width: 20px;
+    height: 15px;
+    top: 222px;
+    left: 254px;
+    z-index: 19;
+  }
+  .d285 {
+    position: absolute;
+    background-color: $w;
+    width: 21px;
+    height: 12px;
+    top: 220px;
+    left: 268px;
+    z-index: 19;
+    transform: rotate(-40deg);
+  }
+  .d286 {
+    position: absolute;
+    background-color: $w;
+    width: 22px;
+    height: 8px;
+    top: 213px;
+    left: 269px;
+    z-index: 19;
+    transform: rotate(30deg);
+  }
+  .d287 {
+    position: absolute;
+    background-color: $r5;
+    width: 22px;
+    height: 4px;
+    top: 215px;
+    left: 272px;
+    z-index: 19;
+    transform: rotate(25deg);
+  }
+  .d288 {
+    position: absolute;
+    background-color: $bl1;
+    width: 30px;
+    height: 6px;
+    top: 211px;
+    left: 270px;
+    z-index: 20;
+    transform: rotate(30deg);
+  }
+  .d289 {
+    position: absolute;
+    background-color: $bl1;
+    width: 18px;
+    height: 14px;
+    top: 211px;
+    left: 289px;
+    z-index: 20;
+    transform: rotate(-8deg);
+    clip-path: $c22;
+  }
+  .d290 {
+    position: absolute;
+    background-color: $p5;
+    width: 25px;
+    height: 12px;
+    top: 210px;
+    left: 245px;
+    z-index: 20;
+  }
+  .d291 {
+    position: absolute;
+    background-color: $bl1;
+    width: 5px;
+    height: 12px;
+    top: 206px;
+    left: 244px;
+    z-index: 22;
+    transform: rotate(37deg);
+  }
+
+  .d292 {
+    position: absolute;
+    background-color: $bl1;
+    width: 4px;
+    height: 10px;
+    top: 208px;
+    left: 268px;
+    z-index: 22;
+    transform: rotate(-37deg);
+  }
+  .d293 {
+    position: absolute;
+    background-color: $bl1;
+    width: 5px;
+    height: 12px;
+    top: 215px;
+    left: 265px;
+    z-index: 20;
+    transform: rotate(65deg);
+  }
+  .d294 {
+    position: absolute;
+    background-color: $bl1;
+    width: 8px;
+    height: 12px;
+    top: 214px;
+    left: 254px;
+    z-index: 22;
+  }
+  .d295 {
+    position: absolute;
+    background-color: $p14;
+    width: 5px;
+    height: 12px;
+    top: 222px;
+    left: 248px;
+    z-index: 22;
+    transform: rotate(-35deg);
+  }
+  .d296 {
+    position: absolute;
+    background-color: $p14;
+    width: 6px;
+    height: 2px;
+    top: 222px;
+    left: 245px;
+    z-index: 22;
+    transform: rotate(-10deg);
+  }
+
+  .d297 {
+    position: absolute;
+    background-color: $p14;
+    width: 3px;
+    height: 10px;
+    top: 214px;
+    left: 249px;
+    z-index: 22;
+    transform: rotate(15deg);
+  }
+  .d298 {
+    position: absolute;
+    background-color: $p14;
+    width: 12px;
+    height: 12px;
+    top: 222px;
+    left: 252px;
+    z-index: 22;
+    clip-path: $c45;
+  }
+  .d299 {
+    position: absolute;
+    background-color: $p14;
+    width: 4px;
+    height: 10px;
+    top: 221px;
+    left: 251px;
+    z-index: 22;
+    transform: rotate(-40deg);
+  }
+  .d300 {
+    position: absolute;
+    background-color: $p4;
+    width: 8px;
+    height: 15px;
+    top: 218px;
+    left: 262px;
+    z-index: 20;
+    transform: rotate(40deg);
+    clip-path: $c46;
+  }
+  .d301 {
+    position: absolute;
+    background-color: $p4;
+    width: 10px;
+    height: 6px;
+    top: 228px;
+    left: 253px;
+    z-index: 20;
+  }
+  .d302 {
+    position: absolute;
+    background-color: $w;
+    width: 11px;
+    height: 10px;
+    top: 210px;
+    left: 257px;
+    z-index: 22;
+  }
+  .d303 {
+    position: absolute;
+    background-color: $p2;
+    width: 80px;
+    height: 60px;
+    top: 175px;
+    left: -5px;
+    z-index: 22;
+    transform: rotate(2deg);
+  }
+  .d304 {
+    position: absolute;
+    background-color: $p2;
+    width: 20px;
+    height: 25px;
+    top: 218px;
+    left: -5px;
+    z-index: 22;
+    transform: rotate(-5deg);
+  }
+  .d305 {
+    position: absolute;
+    background-color: $p2;
+    width: 20px;
+    height: 25px;
+    top: 227px;
+    left: 10px;
+    z-index: 22;
+    transform: rotate(-10deg);
+  }
+  .d306 {
+    position: absolute;
+    background-color: $p2;
+    width: 20px;
+    height: 26px;
+    top: 227px;
+    left: 20px;
+    z-index: 22;
+  }
+  .d307 {
+    position: absolute;
+    background-color: $p2;
+    width: 30px;
+    height: 45px;
+    top: 234px;
+    left: 20px;
+    z-index: 22;
+    transform: rotate(105deg);
+    clip-path: $c33;
+  }
+  .d308 {
+    position: absolute;
+    background-color: $bl2;
+    width: 35px;
+    height: 53px;
+    top: 180px;
+    z-index: 22;
+    clip-path: $c47;
+  }
+  .d309 {
+    position: absolute;
+    background-color: $bl2;
+    width: 17px;
+    height: 15px;
+    top: 178px;
+    left: 0px;
+    z-index: 22;
+  }
+  .d310 {
+    position: absolute;
+    background-color: $bl2;
+    width: 35px;
+    height: 50px;
+    top: 167px;
+    left: 22px;
+    z-index: 22;
+    transform: rotate(100deg);
+    clip-path: $c33;
+  }
+  .d311 {
+    position: absolute;
+    background-color: $bl2;
+    width: 28px;
+    height: 8px;
+    top: 183px;
+    left: 48px;
+    z-index: 22;
+    transform: rotate(-15deg);
+  }
+  .d312 {
+    position: absolute;
+    background-color: $bl2;
+    width: 80px;
+    height: 14px;
+    top: 197px;
+    left: 67px;
+    z-index: 22;
+    transform: rotate(30deg);
+  }
+  .d313 {
+    position: absolute;
+    background-color: $bl2;
+    width: 20px;
+    height: 16px;
+    top: 218px;
+    left: 125px;
+    z-index: 22;
+  }
+  .d314 {
+    position: absolute;
+    background-color: $bl2;
+    width: 22px;
+    height: 18px;
+    top: 230px;
+    left: 125px;
+    z-index: 22;
+    clip-path: $c48;
+  }
+  .d315 {
+    position: absolute;
+    background-color: $bl2;
+    width: 35px;
+    height: 13px;
+    top: 187px;
+    left: 56px;
+    z-index: 22;
+    transform: rotate(8deg);
+  }
+  .d316 {
+    position: absolute;
+    background-color: $p4;
+    width: 15px;
+    height: 40px;
+    top: 185px;
+    left: 136px;
+    z-index: 19;
+  }
+  .d317 {
+    position: absolute;
+    background-color: $y2;
+    width: 15px;
+    height: 40px;
+    top: 162px;
+    left: 135px;
+    z-index: 19;
+    transform: rotate(60deg);
+  }
+  .d318 {
+    position: absolute;
+    background-color: $p4;
+    width: 23px;
+    height: 55px;
+    top: 170px;
+    left: 106px;
+    z-index: 20;
+    transform: rotate(-63deg);
+  }
+  .d319 {
+    position: absolute;
+    background-color: $p4;
+    width: 20px;
+    height: 20px;
+    top: 178px;
+    left: 81px;
+    z-index: 20;
+    transform: rotate(72deg);
+  }
+  .d320 {
+    position: absolute;
+    background-color: $p2;
+    width: 40px;
+    height: 15px;
+    top: 205px;
+    left: 88px;
+    z-index: 20;
+    transform: rotate(50deg);
+  }
+  .d321 {
+    position: absolute;
+    background-color: $p2;
+    width: 40px;
+    height: 25px;
+    top: 200px;
+    left: 70px;
+    z-index: 20;
+  }
+  .d322 {
+    position: absolute;
+    background-color: $bl2;
+    width: 10px;
+    height: 25px;
+    top: 195px;
+    left: 74px;
+    z-index: 22;
+    transform: rotate(65deg);
+  }
+  .d323 {
+    position: absolute;
+    background-color: $bl2;
+    width: 10px;
+    height: 15px;
+    top: 200px;
+    left: 85px;
+    z-index: 22;
+    transform: rotate(45deg);
+  }
+  .d324 {
+    position: absolute;
+    background-color: $bl1;
+    width: 15px;
+    height: 6px;
+    top: 227px;
+    left: 104px;
+    z-index: 22;
+  }
+  .d325 {
+    position: absolute;
+    background-color: $bl1;
+    width: 28px;
+    height: 4px;
+    top: 220px;
+    left: 93px;
+    z-index: 22;
+    transform: rotate(35deg);
+  }
+
+  .d326 {
+    position: absolute;
+    background-color: $p4;
+    width: 25px;
+    height: 30px;
+    top: 210px;
+    left: 49px;
+    z-index: 22;
+    clip-path: $c49;
+  }
+  .d327 {
+    position: absolute;
+    background-color: $p4;
+    width: 37px;
+    height: 4px;
+    top: 235px;
+    left: 36px;
+    z-index: 22;
+    transform: rotate(10deg);
+    clip-path: $c50;
+  }
+  .d328 {
+    position: absolute;
+    background-color: $w;
+    width: 12px;
+    height: 11px;
+    top: 230px;
+    left: 70px;
+    z-index: 21;
+  }
+  .d329 {
+    position: absolute;
+    background-color: $w;
+    width: 22px;
+    height: 20px;
+    top: 217px;
+    left: 78px;
+    z-index: 21;
+    transform: rotate(-20deg);
+  }
+  .d330 {
+    position: absolute;
+    background-color: $p7;
+    width: 8px;
+    height: 27px;
+    top: 208px;
+    left: 93px;
+    z-index: 22;
+    transform: rotate(-57deg);
+  }
+  .d331 {
+    position: absolute;
+    background-color: $p7;
+    width: 6px;
+    height: 8px;
+    top: 225px;
+    left: 101px;
+    z-index: 22;
+  }
+  .d332 {
+    position: absolute;
+    background-color: $p7;
+    width: 10px;
+    height: 6px;
+    top: 226px;
+    left: 101px;
+    z-index: 22;
+    transform: rotate(-60deg);
+  }
+  .d333 {
+    position: absolute;
+    background-color: $bl1;
+    width: 22px;
+    height: 22px;
+    top: 201px;
+    left: 76px;
+    z-index: 22;
+    transform: rotate(115deg);
+    clip-path: $c33;
+  }
+  .d334 {
+    position: absolute;
+    background-color: $bl1;
+    width: 50px;
+    height: 8px;
+    top: 207px;
+    left: 30px;
+    z-index: 22;
+    transform: rotate(-9deg);
+  }
+  .d335 {
+    position: absolute;
+    background-color: $bl1;
+    width: 20px;
+    height: 23px;
+    top: 211px;
+    left: 20px;
+    z-index: 22;
+    clip-path: $c51;
+  }
+  .d336 {
+    position: absolute;
+    background-color: $p2;
+    width: 6px;
+    height: 15px;
+    top: 225px;
+    left: 30px;
+    z-index: 22;
+    transform: rotate(40deg);
+  }
+  .d337 {
+    position: absolute;
+    background-color: $bl1;
+    width: 17px;
+    height: 17px;
+    top: 212px;
+    left: 27px;
+    z-index: 22;
+    clip-path: $c52;
+  }
+  .d338 {
+    position: absolute;
+    background-color: $bl1;
+    width: 6px;
+    height: 14px;
+    top: 210px;
+    left: 42px;
+    z-index: 22;
+    transform: rotate(50deg);
+  }
+  .d339 {
+    position: absolute;
+    background-color: $bl1;
+    width: 28px;
+    height: 17px;
+    top: 212px;
+    left: 55px;
+    z-index: 22;
+  }
+  .d340 {
+    position: absolute;
+    background-color: $bl1;
+    width: 7px;
+    height: 11px;
+    top: 212px;
+    left: 82px;
+    z-index: 22;
+    transform: rotate(-7deg);
+  }
+  .d341 {
+    position: absolute;
+    background-color: $bl1;
+    width: 30px;
+    height: 3px;
+    top: 219px;
+    left: 87px;
+    z-index: 22;
+    transform: rotate(30deg);
+  }
+  .d342 {
+    position: absolute;
+    background-color: $bl1;
+    width: 20px;
+    height: 14px;
+    top: 220px;
+    left: 57px;
+    z-index: 22;
+    transform: rotate(-40deg);
+  }
+  .d343 {
+    position: absolute;
+    background-color: $bl1;
+    width: 15px;
+    height: 8px;
+    top: 231px;
+    left: 65px;
+    z-index: 22;
+  }
+  .d344 {
+    position: absolute;
+    background-color: $bl1;
+    width: 14px;
+    height: 18px;
+    top: 218px;
+    left: 72px;
+    z-index: 22;
+    transform: rotate(32deg);
+  }
+  .d345 {
+    position: absolute;
+    background-color: $p2;
+    width: 7px;
+    height: 8px;
+    top: 220px;
+    left: 60px;
+    z-index: 23;
+  }
+  .d346 {
+    position: absolute;
+    background-color: $p2;
+    width: 5px;
+    height: 9px;
+    top: 213px;
+    left: 65px;
+    transform: rotate(55deg);
+    z-index: 23;
+  }
+  .d347 {
+    position: absolute;
+    background-color: $r4;
+    width: 6px;
+    height: 7px;
+    top: 227px;
+    left: 63px;
+    transform: rotate(50deg);
+    z-index: 23;
+  }
+  .d348 {
+    position: absolute;
+    background-color: $r4;
+    width: 8px;
+    height: 5px;
+    top: 230px;
+    left: 68px;
+    z-index: 23;
+  }
+  .d349 {
+    position: absolute;
+    background-color: $r4;
+    width: 7px;
+    height: 6px;
+    top: 227px;
+    left: 75px;
+    z-index: 23;
+    transform: rotate(-50deg);
+  }
+  .d350 {
+    position: absolute;
+    background-color: $p2;
+    width: 7px;
+    height: 9px;
+    top: 218px;
+    left: 78px;
+    z-index: 23;
+    transform: rotate(5deg);
+  }
+  .d351 {
+    position: absolute;
+    background-color: $p2;
+    width: 9px;
+    height: 3px;
+    top: 215px;
+    left: 76px;
+    z-index: 23;
+    transform: rotate(15deg);
+  }
+  .d352 {
+    position: absolute;
+    background-color: $w;
+    width: 9px;
+    height: 6px;
+    top: 216px;
+    left: 73px;
+    z-index: 23;
+    transform: rotate(35deg);
+  }
+  .d353 {
+    position: absolute;
+    background-color: $y2;
+    width: 55px;
+    height: 8px;
+    top: 243px;
+    left: 65px;
+    z-index: 23;
+    transform: rotate(-25deg);
+    clip-path: $c53;
+  }
+  .d354 {
+    position: absolute;
+    background-color: $p9;
+    width: 15px;
+    height: 20px;
+    top: 243px;
+    left: 65px;
+    z-index: 23;
+  }
 }
